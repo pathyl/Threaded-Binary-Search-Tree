@@ -1,0 +1,243 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U binarysearchtree%b	binarysearchtree.adb	9c5fe75f NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.compare_array_unsigned_8%s  s-carun8.adb  s-carun8.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+U binarysearchtree%s	binarysearchtree.ads	01a372d2 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.bounded_io%s
+W gqueue%s		gqueue.adb		gqueue.ali
+W gstack%s		gstack.adb		gstack.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-charac.ads		20190518041256 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041256 66457d31 ada.characters.latin_1%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20190518041256 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20190518041256 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20190518041258 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-string.ads		20190518041256 90ac6797 ada.strings%s
+D a-strbou.ads		20190518041256 84c37afd ada.strings.bounded%s
+D a-strfix.ads		20190518041258 86d6bc21 ada.strings.fixed%s
+D a-strmap.ads		20190518041256 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20190518041256 a27dcb33 ada.strings.superbounded%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiboio.ads		20190518041258 3bc49abf ada.text_io.bounded_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D binarysearchtree.ads	20191122211142 9c726211 binarysearchtree%s
+D binarysearchtree.adb	20191122213902 002d854e binarysearchtree%b
+D gqueue.ads		20191122205536 1c408c65 gqueue%s
+D gstack.ads		20191122205416 67d4dbed gstack%s
+D gstack.adb		20191122192956 f7dca4b7 gstack%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-carun8.ads		20190518041258 a903718d system.compare_array_unsigned_8%s
+D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-valint.ads		20190518041256 b5ff6963 system.val_int%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [insertbinarysearchtree binarysearchtree 25 14 none]
+G c Z s b [findcustomeriterative binarysearchtree 32 14 none]
+G c Z s b [findcustomerrecursive binarysearchtree 39 14 none]
+G c Z s b [inordersuccessor binarysearchtree 47 13 none]
+G c Z s b [inorderpredecessor binarysearchtree 48 13 none]
+G c Z s b [customername binarysearchtree 51 13 none]
+G c Z s b [customerphone binarysearchtree 52 13 none]
+G c Z s b [printcustomer binarysearchtree 53 14 none]
+G c Z s b [preordertraversaliterative binarysearchtree 57 14 none]
+G c Z s b [postordertraversaliterative binarysearchtree 58 14 none]
+G c Z s b [allocatenode binarysearchtree 69 14 none]
+G c Z s b [insertnode binarysearchtree 70 14 none]
+G c Z s b [treefromfile binarysearchtree 71 14 none]
+G c Z s s [customerIP binarysearchtree 75 9 none]
+G c Z s s [nodeIP binarysearchtree 83 9 none]
+G c Z b b [preordersuccessor binarysearchtree 188 13 none]
+G r i none [preordertraversaliterative binarysearchtree 57 14 none] [gstack standard 4 12 none]
+G r i none [postordertraversaliterative binarysearchtree 58 14 none] [gstack standard 4 12 none]
+X 1 ada.ads
+16K9*Ada 20e8 21|3r6 4r5 5r6 6r5 7r6 8r6 9r5 10r6 11r5 22|10r7 50r7 291r7
+. 304r7
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[19|46] 21|5w10 6r9
+X 7 a-numeri.ads
+16K13*Numerics 32e17 21|8r10 9r9
+X 8 a-nuelfu.ads
+18K22*Elementary_Functions[9|39] 21|8w19 9r18
+X 11 a-string.ads
+16K13*Strings 35e16 21|10r10 11r9
+X 13 a-strfix.ads
+43K21*Fixed 596e22 21|10w18 11r17
+50U14*Move 22|295s10 296s10
+X 17 a-textio.ads
+57K13*Text_IO 727e16 21|3w10 4r9 7r10 22|10r11 50r11 291r11 304r11
+64P9*File_Type 22|7r11 285r10
+66n23*In_File{66E9} 22|291r43
+66n32*Out_File{66E9} 22|10r44
+114U14*Open 22|10s19 291s19
+115p7 File{64P9} 22|10r24 291r24
+116e7 Mode{66E9} 22|10r36 291r35
+117a7 Name{string} 22|10r54 291r52
+129U14*Close 22|50s19 304s19
+264U14*New_Line 22|16s10 44s16 49s7 57s7 64s10 82s10 99s7 174s13 300s10
+459U14*Put 22|23s16 32s16 34s19 37s19
+465U14*Put 22|14s10 43s16 55s7 56s7 60s10 62s10 78s10 80s10 97s7 98s7 157s7
+. 158s7 159s7 160s7 161s7 293s7 297s10 298s10 299s10
+492V13*Get_Line{string} 22|292s32 295s15 296s15
+508U14*Put_Line 22|169s7
+X 18 a-tiboio.ads
+22k21*Bounded_IO 50e27 21|7w18
+X 21 binarysearchtree.ads
+12K9*BinarySearchTree 75E9 90l5 90e21 22|2b14 308l5 308t21
+13i4*numNodes{natural} 22|12m7 12r19 165r39 211r39
+14A12*String10{string}<integer> 26r50 27r51 33r54 40r54 51r70 52r71 69r81
+. 77r17 78r23 22|5r97 95r81 109r85 130r85 145r70 150r71 286r17 287r18
+18P9*BinarySearchTreePoint 25r51 32r45 34r56 39r45 41r56 47r44 47r74 48r46
+. 48r76 51r40 52r41 53r42 57r55 58r56 69r34 70r38 71r55 82c9 85r25 22|5r50
+. 6r14 53r38 95r34 109r45 109r114 110r11 130r45 130r114 145r40 150r41 155r42
+. 164r55 165r49 167r10 188r45 188r75 189r13 205r56 208r21 214r11 257r44 257r74
+. 258r10 272r46 272r76 273r10 284r55
+25U14*InsertBinarySearchTree 25=37 26>37 27>37 22|5b14 51l8 51t30 301s10
+25p37 Root{18P9} 22|5b37 13r10 17m10 19r15
+26a37 custName{14A12} 22|5b73 11r23 22r16 31r19
+27a37 custPhone{14A12} 22|5b83 11r33
+32U14*FindCustomerIterative 32>36 33>36 34<36 22|109b14 128l8 128t29
+32p36 Root{18P9} 22|109b36 110r36
+33a36 CustomerName{14A12} 22|109b68 114r13 116r16 122r10
+34p36 CustomerPoint{18P9} 22|109b95 123m10 125m10
+39U14*FindCustomerRecursive 39>36 40>36 41<36 22|130b14 133s10 135s10 143l8
+. 143t29
+39p36 Root{18P9} 22|130b36 132r25 133r32 134r28 135r32 136r28 137r27
+40a36 CustomerName{14A12} 22|130b68 132r10 133r44 134r13 135r44 136r13
+41p36 CustomerPoint{18P9} 22|130b95 133m58 135m58 137m10 140m10
+47V13*InOrderSuccessor{18P9} 47>30 22|90s13 257b13 270l8 270t24
+47p30 TreePoint{18P9} 22|257b30 260r12 261r10
+48V13*InOrderPredecessor{18P9} 48>32 22|74s13 272b13 282l8 282t26
+48p32 TreePoint{18P9} 22|272b32 275r12 276r10
+51V13*CustomerName{14A12} 51>26 22|145b13 148l8 148t20
+51p26 TreePoint{18P9} 22|145b26 147r14
+52V13*CustomerPhone{14A12} 52>27 22|150b13 153l8 153t21
+52p27 TreePoint{18P9} 22|150b27 152r14
+53U14*PrintCustomer 53>28 22|15s10 61s10 63s10 79s10 81s10 155b14 162l8 162t21
+. 173s13 235s19
+53p28 TreePoint{18P9} 22|155b28 158r11 160r11
+57U14*PreOrderTraversalIterative 57>41 22|164b14 186l8 186t34
+57p41 TreePoint{18P9} 22|164b41 167r35
+58U14*PostOrderTraversalIterative 58>42 22|205b14 253l8 253t35
+58p42 TreePoint{18P9} 22|205b42 214r36
+69U14*AllocateNode 69<27 69>57 69>67 22|11s7 95b14 107l8 107t20
+69p27 Q{18P9} 22|95b27 100m7 101r7 102r7 103r7 104r7 105r7 106r7
+69a57 custName{14A12} 22|95b57 98r11 101r21
+69a67 custPhone{14A12} 22|95b67 102r29
+70U14*InsertNode 70=25 70=28 22|27s19 38s19 53b14 93l8 93t18
+70p25 P{18P9} 22|53b25 58r24 63r24 66r21 67r20 68r10 69r10 70r21 81r24 83r21
+. 84r20 85r10 86r10 87r21
+70p28 Q{18P9} 22|53b28 56r11 58r10 61r24 66r10 67r10 68r21 70r10 71r10 73r13
+. 74r32 74r44 79r24 83r10 84r10 85r21 87r10 88r10 89r13 90r30 90r42
+71U14*TreeFromFile 71>27 71<45 22|284b14 305l8 305t20
+71a27 filename{string} 22|284b27 291r60
+71p45 Root{18P9} 22|284b45 301m33
+75R9 Customer 79e17 87r17
+77a10*Name{14A12} 22|22r34 31r37 56r18 58r17 58r31 101m14 114r35 116r38 122r32
+. 132r35 134r38 136r38 147r29 152r29 158r26
+78a10*PhoneNumber{14A12} 22|102m14 160r26
+81R9 Node 82r41 83c9 88e17 22|100r16
+85p10*Llink{18P9} 22|25r26 66m12 66r23 68m12 87m12 90m33 103m9 115r20 133r37
+. 176r20 193r17 266r20 275r22
+85p17*Rlink{18P9} 22|35r26 70m12 74m35 83m12 83r23 85m12 104m9 117r20 135r37
+. 182r20 197r20 199r17 232r23 245r29 260r22 278r20
+86b10*Ltag{boolean} 22|24r21 67m12 67r22 69m12 73r15 88m12 105m9 114r46 192r12
+. 265r18 276r20
+86b16*Rtag{boolean} 22|33r21 71m12 84m12 84r22 86m12 89r15 106m9 116r49 196r18
+. 261r20 277r18
+87r10*Info{75R9} 22|22r29 31r32 56m13 58r12 58r26 101m9 102m9 114r30 116r33
+. 122r27 132r30 134r33 136r33 147r24 152r24 158m21 160m21
+X 22 binarysearchtree.adb
+6p7 P{21|18P9} 19m10 22r27 24r19 25m19 25r24 27m30 27r30 31r30 33r19 35m19
+. 35r24 38m30 38r30
+6p10 Q{21|18P9} 11m20 11r20 15r24 17r18 27m33 27r33 38m33 38r33
+7p7 f2{17|64P9} 10m32 10r32 23r20 32r20 34r23 37r23 50m25 50r25
+8a7 outfile{string} 10r62
+20l10 Finder_Loop 28r24 39r24 45r21 47l19 47e30
+110p7 P{21|18P9} 114r28 114r44 115m13 115r18 116r31 116r47 117m13 117r18
+. 122r25 123r27
+112l7 Finder_Loop 119r18 121l16 121e27
+165K15 nodeStack[24|4] 166r11 175r13 178r16 181r18
+167p7 P{21|18P9} 172r13 173r27 175r28 176m13 176r18 181m13 182m13 182r18
+170l7 Traverse_Loop 179r21 184l16 184e29
+188V13 PreOrderSuccessor{21|18P9} 188b13 188>31 202l8 202t25
+188p31 TreePoint{21|18P9} 191r12
+189p7 P{21|18P9} 191m7 192r10 193r15 195r15
+189p10 Q{21|18P9} 193m10 195m10 196r16 197m13 197r18 199m10 199r15 201r14
+206R12 TNode 210e20 211r49 213r16
+208p13 aNode{21|18P9} 219m20 227r25 230m23 240r31 243m29
+209i13 Way{natural} 220m20 228r23 229m23 241r29 242m29 247r36
+211K15 nodeStack[24|4] 221r13 223r16 226r23 231r16 236r22 239r29 244r22
+213r7 MyNode{206R12} 219m13 220m13 221r28 226m13 227r18 228r16 229m16 230m16
+. 231r31 239m19 240r24 241r22 242m22 243m22 244r37 247r29
+214p7 P{21|18P9} 218r13 219r29 227m13 230r32 232m16 232r21 235r33 240m19
+. 243r38 245m22 245r27
+216l7 Traverse_Loop 224r21 237r27 251l16 251e29
+258p7 Q{21|18P9} 260m7 262r17 265r16 266m13 266r18 269r14
+273p7 Q{21|18P9} 275m7 277r16 278m13 278r18 281r14
+285p7 f{17|64P9} 291m32 291r32 292r41 295r24 296r24 304m25 304r25
+286a7 custName{21|14A12} 295m27 298r14 301r39
+287a7 custPhone{21|14A12} 296m27 301r49
+288i7 numCust{integer} 292m7 293r37 294r17
+289i7 i{integer} 294r13 302m10 302r15
+X 23 gqueue.ads
+4k12*gqueue 21|2w6 23|14e14
+X 24 gstack.ads
+4k12*gstack 21|1w6 22|165r32 211r32 24|8e14
+5U17 push 22|175s23[165] 221s23[211] 231s26[211] 244s32[211]
+6V16 pop{21|18P9} 22|181s28[165] 226s33[211] 239s39[211]
+7V16 numItems{integer} 22|178s26[165] 223s26[211] 236s32[211]
+

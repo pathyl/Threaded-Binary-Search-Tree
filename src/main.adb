@@ -1,6 +1,9 @@
+with BinarySearchTree;
+use BinarySearchTree;
 procedure Main is
-
+Root : BinarySearchTree.BinarySearchTreePoint;
 begin
    --  Insert code here.
-   null;
+   BinarySearchTree.TreeFromFile("input.txt", Root);
+   BinarySearchTree.PreOrderTraversalIterative(Root);
 end Main;

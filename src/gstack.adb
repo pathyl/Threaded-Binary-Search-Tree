@@ -6,10 +6,12 @@ package body gstack is
       top := top + 1;
       s(top) := x;
    end push;
-   procedure pop(x: out item ) is
+   function pop return item is
+      x: item;
    begin
       x := s(top);
       top := top - 1;
+      return x;
    end pop;
    function numItems return Integer is
    begin

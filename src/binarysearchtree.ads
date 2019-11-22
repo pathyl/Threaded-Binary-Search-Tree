@@ -1,9 +1,20 @@
 with gstack;
+with gqueue;
+with Ada.Text_IO;
+use ada.Text_IO;
+with Ada.Integer_Text_IO;
+use Ada.Integer_Text_IO;
+with Ada.Text_IO.Bounded_IO;
+with Ada.Numerics.Elementary_Functions;
+use Ada.Numerics.Elementary_Functions;
+with Ada.Strings.Fixed;
+use Ada.Strings.Fixed;
 package BinarySearchTree is
    numNodes : Natural;
-   type String10 is new String(1..10);  -- You may use an enumeration type if desired.
-	
-   -- Points to a node in a binary search tree.
+   subtype String10 is String(1..10);  -- You may use an enumeration type if desired.
+                                        -- Points to a node in a binary search tree.
+                                        
+
    type BinarySearchTreePoint is limited private;  -- or type BinarySearchTreePoint is private;  
 
    -- This procedure inserts a node (customer) into the tree in search tree using iteration. If a customer with 
@@ -39,6 +50,7 @@ package BinarySearchTree is
    -- Access functions to return customer names and phone numbers.
    function CustomerName(TreePoint: in BinarySearchTreePoint) return String10;
    function CustomerPhone(TreePoint: in BinarySearchTreePoint) return String10;
+   procedure PrintCustomer(TreePoint: in BinarySearchTreePoint);
 	 
    
    -- Pre/Post order traversal of a tree using using a stack allocated explicitly by the programmer!
@@ -47,16 +59,17 @@ package BinarySearchTree is
 
 
    -- B Option
-   procedure DeleteRandomNode(DeletePoint: in BinarySearchTreePoint); --pg 94, modify for threads
-   procedure ReverseInOrder(treePoint: in BinarySearchTreePoint);
+   --procedure DeleteRandomNode(DeletePoint: in BinarySearchTreePoint); --pg 94, modify for threads
+   --procedure ReverseInOrder(treePoint: in BinarySearchTreePoint);
    
                               
    -- A Option
    
-   
-               
+   --Mine         
    procedure AllocateNode(Q: out BinarySearchTreePoint; custName, custPhone: in String10); --pg 93, modify for threads
    procedure InsertNode(P, Q: in out BinarySearchTreePoint); --pg 93, modify for threads
+   procedure TreeFromFile(filename: String; Root: out BinarySearchTreePoint);
+
                             
 private
    type Customer is 

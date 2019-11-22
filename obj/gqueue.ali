@@ -1,0 +1,39 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U gqueue%b		gqueue.adb		4e4eb3bd NE OO PK GE IL
+
+U gqueue%s		gqueue.ads		1c408c65 BN EE NE OO PK GE IL
+
+D gqueue.ads		20191122205536 1c408c65 gqueue%s
+D gqueue.adb		20191122205636 520e3fd8 gqueue%b
+D system.ads		20190518041258 32a08138 system%s
+G a e
+G c Z s b [gqueue standard 4 12 none]
+X 1 gqueue.ads
+3+12 item 9r19 12r31 13r32 2|3r28 9r29
+4k12*gqueue 3z12 14l8 14e14 2|1b14 16l5 16t11
+5R12*Node 6r30 7c12 11e20 2|6r17
+6P12*NodePtr(5R12) 10r19 2|2r7 4r11 10r11
+9*13 info{3+12} 2|12r14
+10p13 link{6P12} 2|13r14
+12U17*enqueue 12>25 2|3b14 8l8 8t15
+12*25 x{3+12} 2|3b22 6r23
+13U17*dequeue 13<25 2|9b14 14l8 14t15
+13*25 x{3+12} 2|9b22 12m7
+X 2 gqueue.adb
+2p4 F{1|6P12} 6r26 7m7 12r12 13m7 13r12
+4p7 pt{1|6P12} 6m7 7r12
+10p7 pt{1|6P12}
+
