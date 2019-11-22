@@ -43,7 +43,7 @@ package BinarySearchTree is
    
    -- Pre/Post order traversal of a tree using using a stack allocated explicitly by the programmer!
    procedure PreOrderTraversalIterative(TreePoint: in BinarySearchTreePoint);
-   procedure PostOrderTraversalIterative(TreePoint: in BinarySearchTreePoint); 
+   procedure PostOrderTraversalIterative(TreePoint: in BinarySearchTreePoint); --pg 85
 
 
    -- B Option
