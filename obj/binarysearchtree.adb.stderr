@@ -1,0 +1,3 @@
+binarysearchtree.adb:84:03: statement expected
+binarysearchtree.adb:100:03: missing "end if;" for "if" at line 98
+binarysearchtree.adb:100:03: missing "end loop Traverse_Loop;"

@@ -1,4 +1,6 @@
+with gstack;
 package BinarySearchTree is
+   numNodes : Natural;
    type String10 is new String(1..10);  -- You may use an enumeration type if desired.
 	
    -- Points to a node in a binary search tree.
@@ -11,7 +13,7 @@ package BinarySearchTree is
    -- record must be iterative!
    procedure InsertBinarySearchTree(Root:  in out BinarySearchTreePoint;
                                     custName: in String10;
-                                    custPhone: in String10);
+                                    custPhone: in String10); --pg 93, modify for threads
 
    -- This procedure locates a customer using a binary search.  A pointer is returned to the
    -- customer record if they exist, otherwise a Null pointer is returned (in CustomerPoint).
@@ -45,17 +47,18 @@ package BinarySearchTree is
 
 
    -- B Option
-   procedure DeleteRandomNode(DeletePoint: in BinarySearchTreePoint);
+   procedure DeleteRandomNode(DeletePoint: in BinarySearchTreePoint); --pg 94, modify for threads
    procedure ReverseInOrder(treePoint: in BinarySearchTreePoint);
    
                               
    -- A Option
    
    
-   --Mine
-   procedure InsertNode(P, Q: in out BinarySearchTreePoint; custName, custPhone: in String10);
+               
+   procedure AllocateNode(Q: out BinarySearchTreePoint; custName, custPhone: in String10); --pg 93, modify for threads
+   procedure InsertNode(P, Q: in out BinarySearchTreePoint); --pg 93, modify for threads
                             
-   private
+private
    type Customer is 
       record
          Name:  String10;
@@ -70,4 +73,5 @@ package BinarySearchTree is
          Ltag, Rtag:  Boolean;  -- True indicates pointer to lower level, False a thread.
          Info:  Customer;
       end record;
+
 end BinarySearchTree;
