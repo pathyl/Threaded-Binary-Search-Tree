@@ -43,7 +43,7 @@ package ada_main is
    pragma Export (C, u00002, "system__standard_libraryB");
    u00003 : constant Version_32 := 16#35869f17#;
    pragma Export (C, u00003, "system__standard_libraryS");
-   u00004 : constant Version_32 := 16#51937c1c#;
+   u00004 : constant Version_32 := 16#fcb84fc3#;
    pragma Export (C, u00004, "binarysearchtreeB");
    u00005 : constant Version_32 := 16#21e7ef9c#;
    pragma Export (C, u00005, "binarysearchtreeS");

@@ -162,19 +162,29 @@ package body BinarySearchTree is
       flag: Integer := 0;
    begin
       Put_Line("Starting pre order traversal iterative");
-      nodeStack.push(P);
-      while nodeStack.numItems /= 0 loop
-         P := nodeStack.pop;
-         PrintCustomer(P);
-         new_line;
-         if P.Rtag then
-            nodeStack.push(P.Rlink);
+      Traverse_Loop:
+      loop
+         if P /= null then
+            PrintCustomer(P);
+            New_Line;
+            nodeStack.push(P);
+            if P.Ltag then
+               P := P.Llink;
+            else
+               P := null;
+            end if;
+         else
+            if nodeStack.numItems = 0 then
+               exit Traverse_Loop;
+            end if;
+            P := nodeStack.pop;
+            if P.Rtag then
+               P := P.Rlink;
+            else
+               P := null;
+            end if;
          end if;
-         if P.Ltag then
-            nodeStack.push(P.Llink);
-         end if;
-      end loop;
-      New_Line;
+      end loop Traverse_Loop;
    end PreOrderTraversalIterative;
    
    function PreOrderSuccessor(TreePoint: in BinarySearchTreePoint) return BinarySearchTreePoint is

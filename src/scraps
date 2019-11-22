@@ -16,3 +16,19 @@
             P := nodeStack.pop;
             P := P.Rlink; --Right
          end if;
+
+
+
+ nodeStack.push(P);
+      while nodeStack.numItems /= 0 loop
+         P := nodeStack.pop;
+         PrintCustomer(P);
+         new_line;
+         if P.Rtag then
+            nodeStack.push(P.Rlink);
+         end if;
+         if P.Ltag then
+            nodeStack.push(P.Llink);
+         end if;
+      end loop;
+      New_Line;
