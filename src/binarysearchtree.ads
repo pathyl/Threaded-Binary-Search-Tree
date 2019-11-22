@@ -70,7 +70,8 @@ package BinarySearchTree is
    --Mine         
    procedure AllocateNode(Q: out BinarySearchTreePoint; custName, custPhone: in String10); --pg 93, modify for threads
    procedure InsertNode(P, Q: in out BinarySearchTreePoint); --pg 93, modify for threads
-   procedure TreeFromFile(filename: String; Root:in out BinarySearchTreePoint);
+   procedure TreeFromFile(filename: String; Root: in out BinarySearchTreePoint);
+   procedure InOrderTraversal(TreePoint: in BinarySearchTreePoint);
 
                             
 private

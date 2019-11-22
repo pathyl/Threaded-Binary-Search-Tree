@@ -10,7 +10,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main%b		main.adb		13516e9c NE OO SU
+U main%b		main.adb		7c6b7490 NE OO SU
 W binarysearchtree%s	binarysearchtree.adb	binarysearchtree.ali
 
 D ada.ads		20190518041256 76789da1 ada%s
@@ -33,12 +33,12 @@ D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
 D a-tiboio.ads		20190518041258 3bc49abf ada.text_io.bounded_io%s
 D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
-D binarysearchtree.ads	20191122223126 2c9a98c8 binarysearchtree%s
+D binarysearchtree.ads	20191122233304 0a3389b7 binarysearchtree%s
 D gqueue.ads		20191122205536 1c408c65 gqueue%s
 D gstack.ads		20191122205416 67d4dbed gstack%s
 D interfac.ads		20190518041256 5ab55268 interfaces%s
 D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
-D main.adb		20191122223114 3fcbf654 main%b
+D main.adb		20191122233242 7658fd27 main%b
 D system.ads		20190518041258 32a08138 system%s
 D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
 D s-exctab.ads		20190518041256 54135002 system.exception_table%s
@@ -57,13 +57,15 @@ G c Z b b [main standard 3 11 none]
 G r c none [main standard 3 11 none] [treefromfile binarysearchtree 73 14 none]
 G r c none [main standard 3 11 none] [preordertraversaliterative binarysearchtree 59 14 none]
 G r c none [main standard 3 11 none] [postordertraversaliterative binarysearchtree 60 14 none]
+G r c none [main standard 3 11 none] [inordertraversal binarysearchtree 74 14 none]
 X 21 binarysearchtree.ads
-14K9*BinarySearchTree 92e21 26|1w6 2r5 4r8 7r4 8r4
+14K9*BinarySearchTree 93e21 26|1w6 2r5 4r8 7r4 8r4 10r4
 20P9*BinarySearchTreePoint 26|4r25
 59U14*PreOrderTraversalIterative 26|8s21
 60U14*PostOrderTraversalIterative 26|9s4
 73U14*TreeFromFile 26|7s21
+74U14*InOrderTraversal 26|10s21
 X 26 main.adb
-3U11*Main 3b11 10l5 10t9
-4p1 Root{21|20P9} 7m47 7r47 8r48 9r32
+3U11*Main 3b11 11l5 11t9
+4p1 Root{21|20P9} 7m47 7r47 8r48 9r32 10r38
 

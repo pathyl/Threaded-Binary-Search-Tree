@@ -147,11 +147,15 @@ package body BinarySearchTree is
    
    procedure PrintCustomer(TreePoint: in BinarySearchTreePoint) is
    begin
-      Put("[");
-      Put(Trim(TreePoint.Info.Name, Right));
-      Put(", ");
-      Put(Trim(TreePoint.Info.PhoneNumber, Right));
-      Put("]");
+      if TreePoint /= null then
+         Put("[");
+         Put(Trim(TreePoint.Info.Name, Right));
+         Put(", ");
+         Put(Trim(TreePoint.Info.PhoneNumber, Right));
+         Put("]");
+      else
+         Put_Line("Customer Printer was passed a null point");
+      end if;
    end PrintCustomer;
    
    procedure PreOrderTraversalIterative(TreePoint: in BinarySearchTreePoint) is
@@ -271,7 +275,7 @@ package body BinarySearchTree is
    
 
 
-   function InOrderSuccessor(TreePoint: in BinarySearchTreePoint) return BinarySearchTreePoint is
+  function InOrderSuccessor(TreePoint: in BinarySearchTreePoint) return BinarySearchTreePoint is
       Q: BinarySearchTreePoint;
    begin
       Q := TreePoint.Rlink; --Look right
@@ -297,6 +301,22 @@ package body BinarySearchTree is
       end if;
       return Q;
    end InOrderPredecessor;
+   
+   procedure InOrderTraversal(TreePoint: in BinarySearchTreePoint) is
+      P : BinarySearchTreePoint := TreePoint;
+      i : Integer := 0;
+   begin
+      Put_Line("Starting Inorder Traversal");
+      Put("From ");
+      PrintCustomer(TreePoint);
+      New_Line;
+      while i < numNodes loop
+         P :=  InOrderSuccessor(P);
+         PrintCustomer(P);
+         New_Line;
+         i := i + 1;
+      end loop;
+   end InOrderTraversal;
             
    procedure TreeFromFile(filename: String; Root: in out BinarySearchTreePoint) is
       f: File_Type;
