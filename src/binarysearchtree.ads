@@ -10,12 +10,13 @@ package BinarySearchTree is
    -- The tree must be threaded in "inorder". The search to locate the position for the new
    -- record must be iterative!
    procedure InsertBinarySearchTree(Root:  in out BinarySearchTreePoint;
-                                    custName: in String10; custPhone: String10 );
+                                    custName: in String10;
+                                    custPhone: in String10);
 
    -- This procedure locates a customer using a binary search.  A pointer is returned to the
    -- customer record if they exist, otherwise a Null pointer is returned (in CustomerPoint).
    -- The search must be implemented iteratively.
-   procedure FindCustomerIterative(Root: in BinarySearchTreePoint; 
+   procedure FindCustomerIterative(Root: in BinarySearchTreePoint;
                                    CustomerName:  in String10;
                                    CustomerPoint:  out BinarySearchTreePoint);
 	
@@ -30,8 +31,8 @@ package BinarySearchTree is
    -- This function returns the address of the next node in "inorder" taking advantage of threads.
    -- The user may enter the  tree at any random location.  This is sometimes called an iteration 
    -- function or iterater (no recursion).
-   function InOrderSuccessor(TreePoint: in BinarySearchTreePoint) 
-                             return BinarySearchTreePoint;
+   function InOrderSuccessor(TreePoint: in BinarySearchTreePoint) return BinarySearchTreePoint;
+   function InOrderPredecessor(TreePoint: in BinarySearchTreePoint) return BinarySearchTreePoint;
 
    -- Access functions to return customer names and phone numbers.
    function CustomerName(TreePoint: in BinarySearchTreePoint) return String10;
@@ -50,6 +51,9 @@ package BinarySearchTree is
                               
    -- A Option
    
+   
+   --Mine
+   procedure InsertNode(P, Q: in out BinarySearchTreePoint; custName, custPhone: in String10);
                             
    private
    type Customer is 
