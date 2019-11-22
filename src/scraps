@@ -1,0 +1,18 @@
+         if P.Info = StartingInfo then
+            flag := flag + 1;
+         end if;
+         if flag > 1 then
+            exit Traverse_Loop;
+         end if;
+         if P.Ltag then
+            PrintCustomer(P); --Visit Node
+            new_line;
+            nodeStack.push(P);
+            P := P.Llink; --Left
+         else
+            if nodeStack.numItems = 0 then
+               exit Traverse_Loop;
+            end if;
+            P := nodeStack.pop;
+            P := P.Rlink; --Right
+         end if;

@@ -148,34 +148,33 @@ package body BinarySearchTree is
    procedure PrintCustomer(TreePoint: in BinarySearchTreePoint) is
    begin
       Put("[");
-      Put(TreePoint.Info.Name);
+      Put(Trim(TreePoint.Info.Name, Right));
       Put(", ");
-      Put(TreePoint.Info.PhoneNumber);
+      Put(Trim(TreePoint.Info.PhoneNumber, Right));
       Put("]");
    end PrintCustomer;
    
    procedure PreOrderTraversalIterative(TreePoint: in BinarySearchTreePoint) is
       package nodeStack is new gstack(numNodes, BinarySearchTreePoint);
       use nodeStack;
-      P: BinarySearchTreePoint := TreePoint;
+      P, Q: BinarySearchTreePoint := TreePoint;
+      StartingInfo : Customer := TreePoint.Info;
+      flag: Integer := 0;
    begin
       Put_Line("Starting pre order traversal iterative");
-      Traverse_Loop:
-      loop
-         if P /= null then
-            PrintCustomer(P); --Visit Node
-            new_line;
-            nodeStack.push(P);
-            P := P.Llink;
-         else
-            if nodeStack.numItems = 0 then
-               exit Traverse_Loop;
-            end if;
-            P := nodeStack.pop;
-            P := P.Rlink;
+      nodeStack.push(P);
+      while nodeStack.numItems /= 0 loop
+         P := nodeStack.pop;
+         PrintCustomer(P);
+         new_line;
+         if P.Rtag then
+            nodeStack.push(P.Rlink);
          end if;
-      end loop Traverse_Loop;
-      
+         if P.Ltag then
+            nodeStack.push(P.Llink);
+         end if;
+      end loop;
+      New_Line;
    end PreOrderTraversalIterative;
    
    function PreOrderSuccessor(TreePoint: in BinarySearchTreePoint) return BinarySearchTreePoint is
@@ -199,19 +198,24 @@ package body BinarySearchTree is
       type TNode is
          record
             aNode : BinarySearchTreePoint;
-            Way: Natural;
+            Way: Integer;
          end record;
       package nodeStack is new gstack(numNodes, TNode);
-
       MyNode : TNode;
       P : BinarySearchTreePoint := TreePoint;
    begin
+      Put_Line("Starting PostOrderTraversalIterative");
       Traverse_Loop:
       loop
          if P /= null then
             MyNode.aNode := P;
             MyNode.Way := 0;
             nodeStack.push(MyNode);
+            if P.Ltag then
+               P := P.Llink;
+            else
+               P := null;
+            end if;
          else
             if nodeStack.numItems = 0 then
                exit Traverse_Loop;
@@ -220,12 +224,19 @@ package body BinarySearchTree is
             P := MyNode.aNode;
             if MyNode.Way = 0 then
                MyNode.Way := 1;
-               MyNode.aNode := P;
                nodeStack.push(MyNode);
-               P := P.Rlink;
+               if P.Rtag then
+                  P := P.Rlink;
+               else
+                  P := null;
+               end if;
             else
+               Inner_Loop:
                loop
-                  PrintCustomer(P);--Visit P
+                  if P /= null then
+                     PrintCustomer(P);--Visit P
+                     new_line;
+                  end if;
                   if nodeStack.numItems = 0 then
                      exit Traverse_Loop;
                   end if;
@@ -233,12 +244,15 @@ package body BinarySearchTree is
                   P := MyNode.aNode;
                   if MyNode.Way = 0 then
                      MyNode.Way := 1;
-                     MyNode.aNode := P;
                      nodeStack.push(MyNode);
-                     P := P.Rlink;
+                     if P.Rtag then
+                        P := P.Rlink;
+                     else
+                        P := null;
+                     end if;
+                     exit Inner_Loop;
                   end if;
-                  exit when MyNode.Way = 0;
-               end loop;
+               end loop Inner_Loop;
             end if;
          end if;
       end loop Traverse_Loop;
@@ -274,7 +288,7 @@ package body BinarySearchTree is
       return Q;
    end InOrderPredecessor;
             
-   procedure TreeFromFile(filename: String; Root: out BinarySearchTreePoint) is
+   procedure TreeFromFile(filename: String; Root: in out BinarySearchTreePoint) is
       f: File_Type;
       custName: String10;
       custPhone: String10;
@@ -284,7 +298,7 @@ package body BinarySearchTree is
       Ada.Text_IO.Open(File => f, Mode => In_File, Name => filename);
       numCust := Integer'Value(Get_Line(f));
       put("Number of Customers: " & numCust'Image);
-      while i < numCust loop
+      while not End_Of_File(f) loop
          Move(Get_Line(f),custName);
          Move(Get_Line(f),custPhone);
          Put("Got ");
@@ -292,7 +306,6 @@ package body BinarySearchTree is
          Put("from file");
          new_line;
          InsertBinarySearchTree(Root, custName, custPhone);
-         i := i + 1;
       end loop;
       Ada.Text_IO.Close(f);
    end TreeFromFile;

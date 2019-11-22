@@ -6,4 +6,5 @@ begin
    --  Insert code here.
    BinarySearchTree.TreeFromFile("input.txt", Root);
    BinarySearchTree.PreOrderTraversalIterative(Root);
+   PostOrderTraversalIterative(Root);
 end Main;

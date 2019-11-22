@@ -1,5 +1,7 @@
 with gstack;
 with gqueue;
+with Ada.Strings;
+use Ada.Strings;
 with Ada.Text_IO;
 use ada.Text_IO;
 with Ada.Integer_Text_IO;
@@ -68,7 +70,7 @@ package BinarySearchTree is
    --Mine         
    procedure AllocateNode(Q: out BinarySearchTreePoint; custName, custPhone: in String10); --pg 93, modify for threads
    procedure InsertNode(P, Q: in out BinarySearchTreePoint); --pg 93, modify for threads
-   procedure TreeFromFile(filename: String; Root: out BinarySearchTreePoint);
+   procedure TreeFromFile(filename: String; Root:in out BinarySearchTreePoint);
 
                             
 private
