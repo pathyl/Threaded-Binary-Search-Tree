@@ -52,7 +52,8 @@ package BinarySearchTree is
    -- Access functions to return customer names and phone numbers.
    function CustomerName(TreePoint: in BinarySearchTreePoint) return String10;
    function CustomerPhone(TreePoint: in BinarySearchTreePoint) return String10;
-   procedure PrintCustomer(TreePoint: in BinarySearchTreePoint);
+   procedure PrintFullCustomer(TreePoint: in BinarySearchTreePoint);
+   procedure PrintCustomerName(TreePoint: in BinarySearchTreePoint);
 	 
    
    -- Pre/Post order traversal of a tree using using a stack allocated explicitly by the programmer!
@@ -72,7 +73,7 @@ package BinarySearchTree is
    procedure InsertNode(P, Q: in out BinarySearchTreePoint); --pg 93, modify for threads
    procedure TreeFromFile(filename: String; Root: in out BinarySearchTreePoint);
    procedure InOrderTraversal(TreePoint: in BinarySearchTreePoint);
-
+   function ToString10(str: in String) return String10;
                             
 private
    type Customer is 
@@ -89,5 +90,6 @@ private
          Ltag, Rtag:  Boolean;  -- True indicates pointer to lower level, False a thread.
          Info:  Customer;
       end record;
+   HeadName :String10;
 
 end BinarySearchTree;
