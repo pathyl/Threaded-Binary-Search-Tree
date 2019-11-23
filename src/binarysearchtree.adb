@@ -449,4 +449,21 @@ package body BinarySearchTree is
       end loop Finder_Loop;
       return Q;
    end FindParent;
+   
+   procedure ReverseInOrder(treePoint: in BinarySearchTreePoint) is
+      S: BinarySearchTreePoint := treePoint;
+   begin
+      if treePoint.Info.Name = HeadName then --Do not print head.
+         S := treePoint.Llink;
+      end if;
+      if S.Rtag then --Traverse the right subtree.
+         ReverseInOrder(S.Rlink);
+      end if;
+      PrintFullCustomer(S);--Visit the node (print its contents)
+      New_Line;
+      if S.Ltag then --Traverse the left subtree.  
+         ReverseInOrder(S.Llink);
+      end if;  
+      return;
+   end ReverseInOrder;
 end BinarySearchTree;

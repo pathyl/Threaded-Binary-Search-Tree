@@ -12,9 +12,11 @@ begin
    PostOrderTraversalIterative(Root);
    BinarySearchTree.InOrderTraversal(Root);
    FindCustomerIterative(Root,ToString10("Moutafis"), FoundCustomer);
-   DeleteRandomNode(FoundCustomer, Root);
+   --DeleteRandomNode(FoundCustomer, Root);
    PreOrderTraversalIterative(Root);
    FindCustomerRecursive(Root, ToString10("Penton"), FoundCustomer);
    BinarySearchTree.InOrderTraversal(Root);
+   New_Line;
+   ReverseInOrder(Root);
 
 end Main;

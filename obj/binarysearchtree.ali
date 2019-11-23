@@ -18,7 +18,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 RV SPARK_05
 
-U binarysearchtree%b	binarysearchtree.adb	48d8b01e NE OO PK
+U binarysearchtree%b	binarysearchtree.adb	f8826ed0 NE OO PK
 Z ada.tags%s		a-tags.adb		a-tags.ali
 Z interfaces%s		interfac.ads		interfac.ali
 Z system%s		system.ads		system.ali
@@ -30,7 +30,7 @@ Z system.img_int%s	s-imgint.adb		s-imgint.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 Z system.val_int%s	s-valint.adb		s-valint.ali
 
-U binarysearchtree%s	binarysearchtree.ads	9c8e60a7 EE NE OO PK
+U binarysearchtree%s	binarysearchtree.ads	d7e882e2 EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
@@ -62,8 +62,8 @@ D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
 D a-tiboio.ads		20190518041258 3bc49abf ada.text_io.bounded_io%s
 D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
-D binarysearchtree.ads	20191123191316 91f317f3 binarysearchtree%s
-D binarysearchtree.adb	20191123191426 d92ba7ed binarysearchtree%b
+D binarysearchtree.ads	20191123194522 da95f5b6 binarysearchtree%s
+D binarysearchtree.adb	20191123200556 22179b66 binarysearchtree%b
 D gqueue.ads		20191122205536 1c408c65 gqueue%s
 D gstack.ads		20191122205416 67d4dbed gstack%s
 D gstack.adb		20191122192956 f7dca4b7 gstack%b
@@ -102,13 +102,14 @@ G c Z s b [preordertraversaliterative binarysearchtree 60 14 none]
 G c Z s b [postordertraversaliterative binarysearchtree 61 14 none]
 G c Z s b [deleterandomnode binarysearchtree 69 14 none]
 G c Z s b [findparent binarysearchtree 72 13 none]
-G c Z s b [allocatenode binarysearchtree 82 14 none]
-G c Z s b [insertnode binarysearchtree 83 14 none]
-G c Z s b [treefromfile binarysearchtree 84 14 none]
-G c Z s b [inordertraversal binarysearchtree 85 14 none]
-G c Z s b [tostring10 binarysearchtree 86 13 none]
-G c Z s s [customerIP binarysearchtree 89 9 none]
-G c Z s s [nodeIP binarysearchtree 97 9 none]
+G c Z s b [reverseinorder binarysearchtree 75 14 none]
+G c Z s b [allocatenode binarysearchtree 84 14 none]
+G c Z s b [insertnode binarysearchtree 85 14 none]
+G c Z s b [treefromfile binarysearchtree 86 14 none]
+G c Z s b [inordertraversal binarysearchtree 87 14 none]
+G c Z s b [tostring10 binarysearchtree 88 13 none]
+G c Z s s [customerIP binarysearchtree 91 9 none]
+G c Z s s [nodeIP binarysearchtree 99 9 none]
 G c Z b b [preordersuccessor binarysearchtree 215 13 none]
 G r i none [preordertraversaliterative binarysearchtree 60 14 none] [gstack standard 4 12 none]
 G r i none [postordertraversaliterative binarysearchtree 61 14 none] [gstack standard 4 12 none]
@@ -139,7 +140,7 @@ X 17 a-textio.ads
 117a7 Name{string} 22|9r54 364r52
 129U14*Close 22|48s19 377s19
 264U14*New_Line 22|16s10 47s7 57s10 71s10 98s7 114s10 118s10 134s10 139s10
-. 193s13 242s7 248s7 279s22 338s7 344s7 352s10 367s7 374s10
+. 193s13 242s7 248s7 279s22 338s7 344s7 352s10 367s7 374s10 463s7
 312V13*End_Of_File{boolean} 22|368s17
 465U14*Put 22|14s10 55s10 69s10 112s10 117s10 157s10 158s10 159s10 160s10
 . 161s10 169s10 170s10 171s10 243s7 339s7 366s7 371s10 372s10 373s10
@@ -148,17 +149,18 @@ X 17 a-textio.ads
 X 18 a-tiboio.ads
 22k21*Bounded_IO 50e27 21|9w18
 X 21 binarysearchtree.ads
-14K9*BinarySearchTree 89E9 105l5 105e21 22|2b14 452l5 452t21
+14K9*BinarySearchTree 91E9 107l5 107e21 22|2b14 469l5 469t21
 15i4*numNodes{natural} 22|11m7 11r19 178r39 238r39 345r17 431m7 431r19
-16A12*String10{string}<integer> 28r50 29r51 35r54 42r54 53r70 54r71 82r81
-. 86r47 91r17 92r23 103r14 22|4r97 84r81 95r85 123r85 144r70 149r71 359r17
+16A12*String10{string}<integer> 28r50 29r51 35r54 42r54 53r70 54r71 84r81
+. 88r47 93r17 94r23 105r14 22|4r97 84r81 95r85 123r85 144r70 149r71 359r17
 . 360r18 379r47 380r14
 20P9*BinarySearchTreePoint 27r51 34r45 36r56 41r45 43r56 49r44 49r74 50r46
-. 50r76 53r40 54r41 55r46 56r46 60r55 61r56 69r53 72r36 72r66 82r34 83r38
-. 84r58 85r45 96c9 99r25 22|4r50 5r14 51r38 84r34 95r45 95r114 96r11 123r45
-. 123r114 144r40 149r41 154r46 166r46 177r55 178r49 180r13 215r45 215r75
-. 216r13 232r56 235r21 240r11 305r44 305r74 306r10 322r46 322r76 323r10 334r45
-. 335r11 357r58 386r53 387r11 388r31 434r36 434r66 435r13 436r11
+. 50r76 53r40 54r41 55r46 56r46 60r55 61r56 69r53 72r36 72r66 75r43 84r34
+. 85r38 86r58 87r45 98c9 101r25 22|4r50 5r14 51r38 84r34 95r45 95r114 96r11
+. 123r45 123r114 144r40 149r41 154r46 166r46 177r55 178r49 180r13 215r45
+. 215r75 216r13 232r56 235r21 240r11 305r44 305r74 306r10 322r46 322r76 323r10
+. 334r45 335r11 357r58 386r53 387r11 388r31 434r36 434r66 435r13 436r11 453r43
+. 454r10
 27U14*InsertBinarySearchTree 27=37 28>37 29>37 22|4b14 49l8 49t30 375s10
 27p37 Root{20P9} 22|4b37 12r10 17m10 18r10 19r10 19r24 20r10 21r10 22m21
 . 24r15
@@ -184,7 +186,7 @@ X 21 binarysearchtree.ads
 54V13*CustomerPhone{16A12} 54>27 22|149b13 152l8 152t21
 54p27 TreePoint{20P9} 22|149b27 151r14
 55U14*PrintFullCustomer 55>32 22|15s10 56s10 70s10 113s10 133s10 154b14 165l8
-. 165t25 192s13 247s7 278s22 343s7 351s10
+. 165t25 192s13 247s7 278s22 343s7 351s10 462s7
 55p32 TreePoint{20P9} 22|154b32 156r10 158r19 160r19
 56U14*PrintCustomerName 56>32 22|166b14 175l8 175t25
 56p32 TreePoint{20P9} 22|166b32 168r10 170r19
@@ -198,44 +200,46 @@ X 21 binarysearchtree.ads
 72V13*FindParent{20P9} 72>24 72>27 22|390s17 434b13 451l8 451t18
 72p24 P{20P9} 22|434b24 436r36 440r13 443r16
 72p27 Head{20P9} 22|434b27 435r38
-82U14*AllocateNode 82<27 82>57 82>67 22|10s7 84b14 93l8 93t20
-82p27 Q{20P9} 22|84b27 86m7 87r7 88r7 89r7 90r7 91r7 92r7
-82a57 custName{16A12} 22|84b57 87r21
-82a67 custPhone{16A12} 22|84b67 88r29
-83U14*InsertNode 83=25 83=28 22|22s10 31s19 38s19 51b14 82l8 82t18
-83p25 P{20P9} 22|51b25 53r24 58r21 59r20 60r10 61r10 62r21 72r21 73r20 74r10
+75U14*ReverseInOrder 75>29 22|453b14 460s10 465s10 468l8 468t22
+75p29 treePoint{20P9} 22|453b29 454r35 456r10 457r15
+84U14*AllocateNode 84<27 84>57 84>67 22|10s7 84b14 93l8 93t20
+84p27 Q{20P9} 22|84b27 86m7 87r7 88r7 89r7 90r7 91r7 92r7
+84a57 custName{16A12} 22|84b57 87r21
+84a67 custPhone{16A12} 22|84b67 88r29
+85U14*InsertNode 85=25 85=28 22|22s10 31s19 38s19 51b14 82l8 82t18
+85p25 P{20P9} 22|51b25 53r24 58r21 59r20 60r10 61r10 62r21 72r21 73r20 74r10
 . 75r10 76r21
-83p28 Q{20P9} 22|51b28 53r10 56r28 58r10 59r10 60r21 62r10 63r10 64r13 65r32
+85p28 Q{20P9} 22|51b28 53r10 56r28 58r10 59r10 60r21 62r10 63r10 64r13 65r32
 . 65r44 70r28 72r10 73r10 74r21 76r10 77r10 78r13 79r30 79r42
-84U14*TreeFromFile 84>27 84=45 22|357b14 378l8 378t20
-84a27 filename{string} 22|357b27 364r60 366r68
-84p45 Root{20P9} 22|357b45 375m33
-85U14*InOrderTraversal 85>31 22|334b14 355l8 355t24
-85p31 TreePoint{20P9} 22|334b31 335r36 340r10 340r45 341r15
-86V13*ToString10{16A12} 86>24 22|379b13 384l8 384t18
-86a24 str{string} 22|379b24 382r12
-89R9 Customer 93e17 101r17 22|181r22
-91a10*Name{16A12} 22|21m20 27r34 34r37 53r17 53r31 87m14 102r35 104r38 110r32
+86U14*TreeFromFile 86>27 86=45 22|357b14 378l8 378t20
+86a27 filename{string} 22|357b27 364r60 366r68
+86p45 Root{20P9} 22|357b45 375m33
+87U14*InOrderTraversal 87>31 22|334b14 355l8 355t24
+87p31 TreePoint{20P9} 22|334b31 335r36 340r10 340r45 341r15
+88V13*ToString10{16A12} 88>24 22|379b13 384l8 384t18
+88a24 str{string} 22|379b24 382r12
+91R9 Customer 95e17 103r17 22|181r22
+93a10*Name{16A12} 22|21m20 27r34 34r37 53r17 53r31 87m14 102r35 104r38 110r32
 . 126r35 128r38 130r38 146r29 151r29 158r34 170r34 185r25 244r25 340r25 348r20
-. 440r20 440r34 443r23 443r37
-92a10*PhoneNumber{16A12} 22|88m14 160r34
-95R9 Node 96r41 97c9 102e17 22|17r22 86r16
-99p10*Llink{20P9} 22|29r26 58m12 58r23 60m12 76m12 79m33 89m9 103r20 127r37
+. 440r20 440r34 443r23 443r37 456r25
+94a10*PhoneNumber{16A12} 22|88m14 160r34
+97R9 Node 98r41 99c9 104e17 22|17r22 86r16
+101p10*Llink{20P9} 22|29r26 58m12 58r23 60m12 76m12 79m33 89m9 103r20 127r37
 . 186r25 196r23 220r17 245r25 256r23 316r20 325r22 341r25 395r25 399r20 400m20
-. 409r25 412m20 414r20 415m20 421r20 423m20 442r20
-99p17*Rlink{20P9} 22|19m15 36r26 62m12 65m35 72m12 72r23 74m12 90m9 105r20
+. 409r25 412m20 414r20 415m20 421r20 423m20 442r20 457r25 465r27
+101p17*Rlink{20P9} 22|19m15 36r26 62m12 65m35 72m12 72r23 74m12 90m9 105r20
 . 129r37 206r23 224r20 226r17 270r26 290r32 308r22 328r20 394r25 397m20 402m20
-. 407r22 410r25 417m20 426m20 445r20
-100b10*Ltag{boolean} 22|20m15 28r21 59m12 59r22 61m12 64r15 77m12 91m9 102r46
+. 407r22 410r25 417m20 426m20 445r20 460r27
+102b10*Ltag{boolean} 22|20m15 28r21 59m12 59r22 61m12 64r15 77m12 91m9 102r46
 . 126r49 185r55 195r18 219r12 244r55 255r18 314r18 326r20 340r55 391r12 408r15
-. 411m20 422m20 440r45
-100b16*Rtag{boolean} 22|18m15 35r21 63m12 73m12 73r22 75m12 78r15 92m9 104r49
+. 411m20 422m20 440r45 464r12
+102b16*Rtag{boolean} 22|18m15 35r21 63m12 73m12 73r22 75m12 78r15 92m9 104r49
 . 128r52 205r18 223r18 269r21 289r27 309r20 327r18 393r15 396m20 405r15 425m20
-. 443r48
-101r10*Info{89R9} 22|21m15 27r29 34r32 53r12 53r26 87m9 88m9 102r30 104r33
+. 443r48 459r12
+103r10*Info{91R9} 22|21m15 27r29 34r32 53r12 53r26 87m9 88m9 102r30 104r33
 . 110r27 126r30 128r33 130r33 146r24 151r24 158m29 160m29 170m29 181r44 185r20
-. 244r20 340r20 348r15 440r15 440r29 443r18 443r32
-103a4 HeadName{16A12} 22|13m10 21r28 185r32 244r32 340r32 348r27
+. 244r20 340r20 348r15 440r15 440r29 443r18 443r32 456r20
+105a4 HeadName{16A12} 22|13m10 21r28 185r32 244r32 340r32 348r27 456r32
 X 22 binarysearchtree.adb
 5p7 P{21|20P9} 24m10 27r27 28r19 29m19 29r24 31m30 31r30 34r30 35r19 36m19
 . 36r24 38m30 38r30
@@ -250,7 +254,7 @@ X 22 binarysearchtree.adb
 180p7 P{21|20P9} 186m10 191r13 192r31 194r28 195r16 196m16 196r21 198m16
 . 204m13 205r16 206m16 206r21 208m16
 180p10 Q{21|20P9}
-181r7 StartingInfo{21|89R9}
+181r7 StartingInfo{21|91R9}
 182i7 flag{integer}
 189l7 Traverse_Loop 202r21 211l16 211e29
 215V13 PreOrderSuccessor{21|20P9} 215b13 215>31 229l8 229t25
@@ -289,6 +293,7 @@ X 22 binarysearchtree.adb
 435p10 S{21|20P9}
 436p7 Q{21|20P9} 441m13 444m13 450r14
 438l7 Finder_Loop 447r18 449l16 449e27
+454p7 S{21|20P9} 457m10 459r10 460r25 462r25 464r10 465r25
 X 23 gqueue.ads
 4k12*gqueue 21|2w6 23|14e14
 X 24 gstack.ads
