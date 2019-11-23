@@ -11,7 +11,10 @@ begin
    BinarySearchTree.PreOrderTraversalIterative(Root);
    PostOrderTraversalIterative(Root);
    BinarySearchTree.InOrderTraversal(Root);
-   FindCustomerIterative(Root,ToString10("Ortiz"), FoundCustomer);
+   FindCustomerIterative(Root,ToString10("Moutafis"), FoundCustomer);
+   DeleteRandomNode(FoundCustomer, Root);
+   PreOrderTraversalIterative(Root);
    FindCustomerRecursive(Root, ToString10("Penton"), FoundCustomer);
+   BinarySearchTree.InOrderTraversal(Root);
 
 end Main;

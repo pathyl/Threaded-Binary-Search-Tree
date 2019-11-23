@@ -382,5 +382,71 @@ package body BinarySearchTree is
       Move(str,str10);
       return str10;
    end ToString10;
-            
+   
+   procedure DeleteRandomNode(DeletePoint, Head: in BinarySearchTreePoint) is
+      Q : BinarySearchTreePoint := DeletePoint;
+      Parent, Lchild, Rchild: BinarySearchTreePoint;
+   begin
+      Parent := FindParent(Q, Head);
+      if Q.Ltag then
+         --Replace node Q with left child
+         if Q.Rtag then -- thread right child to new parent.
+            Rchild := Q.Rlink;
+            Lchild := Q.Llink;
+            Lchild.Rtag := true;
+            Lchild.Rlink := Rchild;
+         end if;
+         if Parent.Llink = Q then -- Parent of Q points to Lchild instead of Q
+            Parent.Llink := Lchild;
+         else
+            Parent.Rlink := Lchild;
+         end if;
+         --Free(Q);
+      elsif Q.Rtag then
+         --Replace node Q with right child
+         Rchild := Q.Rlink;
+         if Q.Ltag then -- thread left child to new parent.
+            Lchild := Q.Llink;
+            Rchild := Q.Rlink;
+            Rchild.Ltag := true;
+            Rchild.Llink := Lchild;
+         end if;
+         if Parent.Llink = Q then -- Parent of Q points to Rchild instead of Q
+            Parent.Llink := Rchild;
+         else
+            Parent.Rlink := Rchild;
+         end if;
+         -- Free(Q);
+      else --DeletionPoint is a leaf node.
+         if Parent.Llink = Q then
+            Parent.Ltag := false;
+            Parent.Llink := InOrderPredecessor(Parent);
+         else
+            Parent.Rtag := false;
+            Parent.Rlink := InOrderSuccessor(Parent);
+         end if;
+         --Free(Q);
+         null;
+      end if;
+      numNodes := numNodes - 1;
+   end DeleteRandomNode;
+   
+   function FindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint is
+      J, S: BinarySearchTreePoint := Head;
+      Q : BinarySearchTreePoint := P;
+   begin
+      Finder_Loop :
+      loop
+         if P.Info.Name < J.Info.Name and J.Ltag then
+            Q := J;
+            J := J.Llink;
+         elsif P.Info.Name > J.Info.Name and J.Rtag then
+            Q := J;
+            J := J.Rlink;
+         else
+            exit Finder_Loop; --Either reached a different leaf node or found the customer in the tree.
+         end if;
+      end loop Finder_Loop;
+      return Q;
+   end FindParent;
 end BinarySearchTree;

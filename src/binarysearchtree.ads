@@ -62,7 +62,17 @@ package BinarySearchTree is
 
 
    -- B Option
-   --procedure DeleteRandomNode(DeletePoint: in BinarySearchTreePoint); --pg 94, modify for threads
+   --This procedure deletes a random node from the tree.  The resulting tree is a binary search tree.  
+   --Note that DeletePoint = Root, DeletePoint = P.LLink or DeletePoint = P.Rlink.  
+   --Management would be impressed if you minimize the number of nodes that must be examined to determine which of the above is true. 
+   --Your procedure should contain comments explaining your strategy.  You may add additional parameters if desired.
+   procedure DeleteRandomNode(DeletePoint, Head: in BinarySearchTreePoint); --pg 94, modify for threads
+   
+   --Returns the parent node of P, used in DeleteRandomNode
+   function FindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint;
+   
+
+
    --procedure ReverseInOrder(treePoint: in BinarySearchTreePoint);
    
                               
