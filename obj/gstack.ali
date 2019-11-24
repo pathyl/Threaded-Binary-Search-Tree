@@ -12,8 +12,8 @@ U gstack%b		gstack.adb		90087f5a NE OO PK GE IL
 
 U gstack%s		gstack.ads		67d4dbed BN EE NE OO PK GE IL
 
-D gstack.ads		20191122205416 67d4dbed gstack%s
-D gstack.adb		20191122192956 f7dca4b7 gstack%b
+D gstack.ads		20191124182350 67d4dbed gstack%s
+D gstack.adb		20191124182350 f7dca4b7 gstack%b
 D system.ads		20190518041258 32a08138 system%s
 G a e
 G c Z s b [gstack standard 4 12 none]

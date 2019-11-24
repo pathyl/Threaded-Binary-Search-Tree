@@ -8,7 +8,7 @@ package body BinarySearchTree is
    begin
       Ada.Text_IO.Open(File => f2, Mode => Out_File, Name => outfile);
       AllocateNode(Q, custName, custPhone);
-      numNodes := numNodes + 1;
+
       if Root = Null then  -- If null is passed in as Root, this is the first item in the tree. Create a head/root and attach to the left.
          HeadName := "zzzzzzzzzz"; --Save Info.Name of head so we can skip it while traversing the tree.
          Put("Creating new tree starting with: ");
@@ -52,9 +52,8 @@ package body BinarySearchTree is
    begin
       if Q.Info.Name < P.Info.Name then
          --Insert Q as left subtree of P
-         Put("Inserting ");
-         PrintFullCustomer(Q);
-         new_line;
+         Put_Line("Inserting " & Trim(Q.Info.Name, Right) & " as left child of " & P.Info.Name);
+         numNodes := numNodes + 1;
          Q.Llink := P.Llink;
          Q.Ltag := P.Ltag;
          P.Llink := Q;
@@ -66,9 +65,8 @@ package body BinarySearchTree is
          end if;
       else
          --Insert Q as right subtree of P
-         Put("Inserting ");
-         PrintFullCustomer(Q);
-         new_line;
+         Put_Line("Inserting " & Trim(Q.Info.Name, Right) & " as right child of " & P.Info.Name);
+         numNodes := numNodes + 1;
          Q.Rlink := P.Rlink;
          Q.Rtag := P.Rtag;
          P.Rlink := Q;
@@ -95,8 +93,6 @@ package body BinarySearchTree is
    procedure FindCustomerIterative(Root: in BinarySearchTreePoint; CustomerName: in String10; CustomerPoint: out BinarySearchTreePoint) is
       P : BinarySearchTreePoint := Root;
    begin
-      New_Line;
-      Put_Line("Finding customer: " & Trim(CustomerName, Right) & " iteratively.");
       Finder_Loop :
       loop
          if CustomerName < P.Info.Name and P.Ltag then
@@ -109,12 +105,13 @@ package body BinarySearchTree is
       end loop Finder_Loop;
       if CustomerName = P.Info.Name then
          CustomerPoint := P;
-         Put("Found Customer: ");
+         Put("Found customer ");
          PrintFullCustomer(P);
+         Put(" iteratively.");
          New_Line(2);
       else
          CustomerPoint := null;
-         Put("Could not find: " & Trim(CustomerName, Right));
+         Put("Could not find " & Trim(CustomerName, Right) & " iteratively.");
          New_Line(2);
       end if;
       return;
@@ -129,13 +126,14 @@ package body BinarySearchTree is
          FindCustomerRecursive(Root.Rlink, CustomerName, CustomerPoint);
       elsif CustomerName = Root.Info.Name then
          CustomerPoint := Root;
-         Put_Line("Found Customer: ");
+         Put("Found customer ");
          PrintFullCustomer(CustomerPoint);
-         New_Line;
+         Put(" recursively.");
+         New_Line(2);
          return;
       else
          CustomerPoint := null;
-         Put_Line("Could not find: " & Trim(CustomerName, Right));
+         Put_Line("Could not find " & Trim(CustomerName, Right) & " recursively.");
          New_Line;
          return;
       end if;
@@ -181,11 +179,11 @@ package body BinarySearchTree is
       StartingInfo : Customer := TreePoint.Info;
       flag: Integer := 0;
    begin
+      New_Line;
       Put_Line("Starting pre order traversal iterative");
       If TreePoint.info.name = HeadName and TreePoint.Ltag then
          P := TreePoint.Llink;
       end if;
-
       Traverse_Loop:
       loop
          if P /= null then
@@ -227,7 +225,6 @@ package body BinarySearchTree is
       end if;
       return Q;
    end PreOrderSuccessor;
-         
    
    procedure PostOrderTraversalIterative(TreePoint: in BinarySearchTreePoint) is
       type TNode is
@@ -297,10 +294,26 @@ package body BinarySearchTree is
             end if;
          end if;
       end loop Traverse_Loop;
-               
    end PostOrderTraversalIterative;
    
+   procedure PostOrderTraversalRecursive(TreePoint: in BinarySearchTreePoint) is
+      S : BinarySearchTreePoint := TreePoint;
+   begin
 
+      if S.Ltag then --Traverse the left subtree.  
+         PostOrderTraversalRecursive(S.Llink);
+      end if;  
+      if S.Rtag then --Traverse the right subtree.
+         if S.Rlink = S then
+            --S is Head Node
+            return;
+         end if;
+         PostOrderTraversalRecursive(S.Rlink);
+      end if;
+      PrintFullCustomer(S);--Visit the node (print its contents)
+      New_Line;
+      return;
+   end PostOrderTraversalRecursive;
 
    function InOrderSuccessor(TreePoint: in BinarySearchTreePoint) return BinarySearchTreePoint is
       Q: BinarySearchTreePoint;
@@ -340,9 +353,11 @@ package body BinarySearchTree is
       If TreePoint.info.name = HeadName and TreePoint.Ltag then
          P := TreePoint.Llink;
       end if;
+      New_Line;
       PrintFullCustomer(P);
       New_Line;
       while i < numNodes loop
+         --Put_Line("NumNodes is " & numNodes'Image);
          --Put_Line("Passing " & P.Info.Name);
          P :=  InOrderSuccessor(P);
          if P.Info.Name = HeadName then --skip printing head and go to next
@@ -363,8 +378,9 @@ package body BinarySearchTree is
    begin
       Ada.Text_IO.Open(File => f, Mode => In_File, Name => filename);
       numCust := Integer'Value(Get_Line(f));
-      put("Inserting" & numCust'Image & " customers from file: " & filename);
       New_Line;
+      put("Inserting" & numCust'Image & " customers from file: " & filename);
+      New_Line(2);
       while not End_Of_File(f) loop
          Move(Get_Line(f),custName);
          Move(Get_Line(f),custPhone);
@@ -382,5 +398,159 @@ package body BinarySearchTree is
       Move(str,str10);
       return str10;
    end ToString10;
-            
+   
+   procedure DeleteRandomNode(DeletePoint, Head: in BinarySearchTreePoint) is
+      Q: BinarySearchTreePoint := DeletePoint;
+      S: BinarySearchTreePoint := InOrderSuccessor(DeletePoint);
+      QParent: BinarySearchTreePoint := FindParent(Q, Head);
+      SParent: BinarySearchTreePoint := FindParent(S, Head);
+      Temp: Customer;
+   begin
+      Put_Line("Enter delete: " & Q.Info.Name);
+      Put_Line("Deletion Node Q: " & Q.Info.Name & " Q Parent:" & QParent.Info.Name);
+      
+      if not (Q.Rtag or else Q.Ltag) then
+         --Deleting a leaf;
+         Put_Line("Deleting leaf " & Q.Info.Name);
+         if QParent.Llink = Q then
+            --Q is left from its parent
+            Put_Line("Deleting left leaf " & Q.Info.Name);
+            if Q.LLink.Rtag = false then
+               Q.Llink.Rlink := QParent;
+            end if;
+            QParent.Ltag := false;
+            Put_Line("Changing " & QParent.Info.Name & "ltag false");
+            QParent.Llink := Q.Llink;
+            Put_Line("Changing " & QParent.Info.Name & " LLink to " & Q.Llink.Info.Name);
+         elsif QParent.Rlink = Q then
+            --Q is right from its parent
+            Put_Line("Deleting right leaf " & Q.Info.Name);
+            if Q.Rlink.Ltag = false then
+               Q.Rlink.Llink := QParent;
+            end if;
+            QParent.Rtag := false;
+            Put_Line("Changing " & QParent.Info.Name & " Rtag to false");
+            QParent.Rlink := Q.Rlink;
+            Put_Line("Changing " & QParent.Info.Name & " RtRlink to " & Q.Rlink.Info.Name);
+         end if;
+         --Free(Q);
+         numNodes := numNodes - 1;
+         Put_Line("Numnodes changed -1 to: " & numNodes'Image);
+         return;
+         
+      elsif Head.Llink = Q then
+         --Deleting Root
+         Temp := S.Info;
+         DeleteRandomNode(S, Head);
+         Put_Line("Changing " & Q.Info.Name & " to " & Temp.Name);
+         Q.Info := Temp;
+         
+      else
+         --Deleting non-root with at least 1 child.
+         if S = Head then
+            S := InOrderPredecessor(Q);
+            Temp := S.Info;
+            DeleteRandomNode(S, Head);
+            Put_Line("Changing " & Q.Info.Name & " to " & Temp.Name);
+            Q.Info := Temp;
+         else
+            Temp := S.Info;
+            DeleteRandomNode(S, Head);
+            Put_Line("Changing " & Q.Info.Name & " to " & Temp.Name);
+            Q.Info := Temp;
+         end if;
+      end if;
+      return; 
+   end DeleteRandomNode;
+
+   function FindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint is
+      J, S: BinarySearchTreePoint := Head;
+      Q : BinarySearchTreePoint := P;
+   begin
+      Finder_Loop :
+      loop
+         if P.Info.Name < J.Info.Name and J.Ltag then
+            Q := J;
+            J := J.Llink;
+         elsif P.Info.Name > J.Info.Name and J.Rtag then
+            Q := J;
+            J := J.Rlink;
+         else
+            exit Finder_Loop; --Either reached a different leaf node or found the customer in the tree.
+         end if;
+      end loop Finder_Loop;
+      return Q;
+   end FindParent;
+   
+   function DeletionFindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint is
+      J, S: BinarySearchTreePoint := Head;
+      Q : BinarySearchTreePoint := P;
+      flag: Boolean := false;
+   begin
+      Finder_Loop :
+      loop
+         if P.Info.Name < J.Info.Name and J.Ltag then
+            Q := J;
+            J := J.Llink;
+         elsif P.Info.Name > J.Info.Name and J.Rtag then
+            Q := J;
+            J := J.Rlink;
+         else
+            if flag then
+               exit Finder_Loop; --Either reached a different leaf node or found the customer in the tree.
+            end if;
+            flag := true;
+         end if;
+      end loop Finder_Loop;
+      return Q;
+   end DeletionFindParent;
+   
+   procedure ReverseInOrderCaller(treePoint: in BinarySearchTreePoint) is
+   begin
+      Put("Starting reverse in order traversal from: ");
+      if treePoint.Info.Name = HeadName then --skip displaying info of Head node
+         PrintFullCustomer(TreePoint.Llink);
+      else
+         PrintFullCustomer(TreePoint);
+      end if;
+      New_Line;
+      New_Line;
+      ReverseInOrder(treePoint);
+   end ReverseInOrderCaller;
+   
+   procedure ReverseInOrder(treePoint: in BinarySearchTreePoint) is
+      S: BinarySearchTreePoint := treePoint;
+   begin
+      if treePoint.Info.Name = HeadName then --Do not print head.
+         S := treePoint.Llink;
+      end if;
+      if S.Rtag then --Traverse the right subtree.
+         ReverseInOrder(S.Rlink);
+      end if;
+      PrintFullCustomer(S);--Visit the node (print its contents)
+      New_Line;
+      if S.Ltag then --Traverse the left subtree.  
+         ReverseInOrder(S.Llink);
+      end if;  
+      return;
+   end ReverseInOrder;
+   
+   procedure GetRoot(P: in out BinarySearchTreePoint) is
+   begin
+      while P.Info.Name /= HeadName loop
+            P := InOrderSuccessor(P);
+      end loop;
+      P := P.Llink;
+      Put_Line("Return Root " & P.Info.Name);
+      return;        
+   end GetRoot;
+   
+   procedure GetHead(P: in out BinarySearchTreePoint) is
+   begin
+      while P.Info.Name /= HeadName loop
+         P := InOrderSuccessor(P);
+      end loop;
+      Put_Line("Return Head " & P.Info.Name);
+      return;
+   end GetHead;
 end BinarySearchTree;

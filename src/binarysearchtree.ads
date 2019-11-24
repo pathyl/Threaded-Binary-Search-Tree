@@ -1,5 +1,4 @@
 with gstack;
-with gqueue;
 with Ada.Strings;
 use Ada.Strings;
 with Ada.Text_IO;
@@ -7,8 +6,6 @@ use ada.Text_IO;
 with Ada.Integer_Text_IO;
 use Ada.Integer_Text_IO;
 with Ada.Text_IO.Bounded_IO;
-with Ada.Numerics.Elementary_Functions;
-use Ada.Numerics.Elementary_Functions;
 with Ada.Strings.Fixed;
 use Ada.Strings.Fixed;
 package BinarySearchTree is
@@ -60,13 +57,29 @@ package BinarySearchTree is
    procedure PreOrderTraversalIterative(TreePoint: in BinarySearchTreePoint);
    procedure PostOrderTraversalIterative(TreePoint: in BinarySearchTreePoint); --pg 85
 
-
    -- B Option
-   --procedure DeleteRandomNode(DeletePoint: in BinarySearchTreePoint); --pg 94, modify for threads
+   --This procedure deletes a random node from the tree.  The resulting tree is a binary search tree.  
+   --Note that DeletePoint = Root, DeletePoint = P.LLink or DeletePoint = P.Rlink.  
+   --Management would be impressed if you minimize the number of nodes that must be examined to determine which of the above is true. 
+   --Your procedure should contain comments explaining your strategy.  You may add additional parameters if desired.
+   procedure DeleteRandomNode(DeletePoint, Head: in BinarySearchTreePoint); --pg 94, modify for threads
+   
+   --Returns the parent node of P, used in DeleteRandomNode
+   function FindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint;
+   function DeletionFindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint;
+   
+   --Must be recursive.
+   procedure ReverseInOrder(treePoint: in BinarySearchTreePoint);
+   
+   --Calls ReverseInOrder after writing starting info. Can't set this up in ReverseInOrder because it is recursive and will display the message multiple times.
+   procedure ReverseInOrderCaller(treePoint: in BinarySearchTreePoint);
+
+
    --procedure ReverseInOrder(treePoint: in BinarySearchTreePoint);
    
                               
    -- A Option
+   procedure PostOrderTraversalRecursive(TreePoint: in BinarySearchTreePoint);
    
    --Mine         
    procedure AllocateNode(Q: out BinarySearchTreePoint; custName, custPhone: in String10); --pg 93, modify for threads
@@ -74,6 +87,11 @@ package BinarySearchTree is
    procedure TreeFromFile(filename: String; Root: in out BinarySearchTreePoint);
    procedure InOrderTraversal(TreePoint: in BinarySearchTreePoint);
    function ToString10(str: in String) return String10;
+   
+   --Traverse the tree from any node to find the first node in the tree, (not the Head)
+   procedure GetRoot(P: in out BinarySearchTreePoint);
+   
+   procedure GetHead(P: in out BinarySearchTreePoint);
                             
 private
    type Customer is 

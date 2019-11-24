@@ -2,9 +2,8 @@
 b__main.o
 [PROJECT FILES]
 C:\Users\patri\DSTree\default.gpr
-20191116202540
+20191124182350
 [BOUND OBJECT FILES]
-C:\Users\patri\DSTree\obj\gqueue.o
 C:\Users\patri\DSTree\obj\gstack.o
 C:\Users\patri\DSTree\obj\binarysearchtree.o
 C:\Users\patri\DSTree\obj\main.o
