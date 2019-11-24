@@ -278,3 +278,35 @@ Parent := FindParent(Q, Head);
             Put_Line("Swapping " & Q.Info.Name & " out with " & Q.Llink.Info.Name);
          end if;
       else
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      if QParent = Head then
+         root := null;
+      elsif QParent.Llink = Q then
+         QParent.Ltag := true;
+         QParent.llink := Q.Llink;
+      else
+         QParent.Rtag := true;
+         QParent.Rlink := Q.Rlink;
+      end if;

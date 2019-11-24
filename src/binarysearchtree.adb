@@ -52,9 +52,7 @@ package body BinarySearchTree is
    begin
       if Q.Info.Name < P.Info.Name then
          --Insert Q as left subtree of P
-         Put("Inserting ");
-         PrintFullCustomer(Q);
-         new_line;
+         Put_Line("Inserting " & Q.Info.Name & " as left subtree of " & P.Info.Name);
          Q.Llink := P.Llink;
          Q.Ltag := P.Ltag;
          P.Llink := Q;
@@ -66,9 +64,8 @@ package body BinarySearchTree is
          end if;
       else
          --Insert Q as right subtree of P
-         Put("Inserting ");
-         PrintFullCustomer(Q);
-         new_line;
+         Put_Line("Inserting " & Q.Info.Name & " as right subtree of " & P.Info.Name);
+
          Q.Rlink := P.Rlink;
          Q.Rtag := P.Rtag;
          P.Rlink := Q;
@@ -399,13 +396,14 @@ package body BinarySearchTree is
       if not (Q.Rtag or else Q.Ltag) then
          --Deleting a leaf;
          Put_Line("Deleting leaf " & Q.Info.Name);
-         if QParent.Llink.Info = Q.Info then
+         if QParent.Llink = Q then
             --Q is left from its parent
+            InOrderPredecessor(Q).Rlink := QParent;
             QParent.Ltag := false;
             Put_Line("Changing " & QParent.Info.Name & "ltag false");
             QParent.Llink := Q.Llink;
             Put_Line("Changing " & QParent.Info.Name & " LLink to " & Q.Llink.Info.Name);
-         elsif QParent.Rlink.Info = Q.Info then
+         elsif QParent.Rlink = Q then
             --Q is right from its parent
             QParent.Rtag := false;
             Put_Line("Changing " & QParent.Info.Name & " Rtag to false");
@@ -417,50 +415,33 @@ package body BinarySearchTree is
          Put_Line("Numnodes changed -1 to: " & numNodes'Image);
          return;
          
-      elsif QParent.Info.Name = HeadName then
-         
-         
+      elsif Head.Llink = Q then
          --Deleting Root
-         Put_Line("Deleting Root");
-         if Q.Rtag then
-            Put_Line("Right delete");
-            Temp := Q.Rlink.Info;
-            Put_Line("Calling Delete " & Q.Rlink.Info.Name);
-            DeleteRandomNode(Q.Rlink, Head);
-            Q.Info := Temp;
-         else
-            Put_Line("Left delete");
-            Temp := Q.Llink.Info;
-            DeleteRandomNode(Q.Llink, Head);
-            Q.Info := Temp;
-         end if;
-         
+         Temp := S.Info;
+         DeleteRandomNode(S, Head);
+         Put_Line("Changing " & Q.Info.Name & " to " & Temp.Name);
+         Q.Info := Temp;
          
       else
          --Deleting non-root with at least 1 child.
-         Put_Line("Going 3 delete: " & S.Info.Name);
-         Put_Line("3 delete: " & Q.Info.Name);
-         
-         Temp := S.Info;
-         if S.Info.Name /= HeadName then
+         if S = Head then
+            S := InOrderPredecessor(Q);
+            Temp := S.Info;
             DeleteRandomNode(S, Head);
-            Q.Info := Temp;      
-            Put_Line("Swappingo " & Q.Info.Name & " out with " & S.Info.Name);
-         elsif S.Info.Name = HeadName then
-            Put_Line("INHERE");
-            Q.Info := Q.Llink.Info;
-            QParent.Llink := QParent.Llink.Rlink;
-            numNodes := numNodes - 1;
-            Put_Line("Numnodes changed -1 to: " & numNodes'Image);
-
+            Put_Line("Changing " & Q.Info.Name & " to " & Temp.Name);
+            Q.Info := Temp;
+         else
+            Temp := S.Info;
+            DeleteRandomNode(S, Head);
+            Put_Line("Changing " & Q.Info.Name & " to " & Temp.Name);
+            Q.Info := Temp;
          end if;
-         --Free(Q);
-         return;
-         
          
       end if;
-
+      return;
+      
    end DeleteRandomNode;
+   
    
    
    function FindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint is
@@ -521,4 +502,13 @@ package body BinarySearchTree is
       end if;  
       return;
    end ReverseInOrder;
+   
+   procedure GetRoot(P: in out BinarySearchTreePoint) is
+   begin
+      while P.Info.Name /= HeadName loop
+            P := InOrderSuccessor(P);
+      end loop;
+      Put_Line("Return Root " & P.Info.Name);
+      return;        
+   end GetRoot;
 end BinarySearchTree;

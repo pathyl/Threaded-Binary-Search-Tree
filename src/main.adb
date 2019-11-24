@@ -3,8 +3,8 @@ use BinarySearchTree;
 with Ada.Text_IO;
 use ada.Text_IO;
 procedure Main is
-   Root : BinarySearchTree.BinarySearchTreePoint;
-   FoundCustomer: BinarySearchTree.BinarySearchTreePoint;
+   Root : BinarySearchTreePoint;
+   FoundCustomer: BinarySearchTreePoint;
 begin
    --C OPTION TRANSACTIONS
    BinarySearchTree.TreeFromFile("inputC1.txt", Root); --1
@@ -30,6 +30,7 @@ begin
    InOrderTraversal(Root);
    FindCustomerIterative(Root, ToString10("Ikerd"), FoundCustomer); --7.5
    --DeleteRandomNode(FoundCustomer, Root); --7.6
+   GetRoot(Root);
    TreeFromFile("inputB1.txt", Root); --8
    InOrderTraversal(Root); --9
    ReverseInOrder(Root); --10

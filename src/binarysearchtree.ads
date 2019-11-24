@@ -86,6 +86,9 @@ package BinarySearchTree is
    procedure TreeFromFile(filename: String; Root: in out BinarySearchTreePoint);
    procedure InOrderTraversal(TreePoint: in BinarySearchTreePoint);
    function ToString10(str: in String) return String10;
+   
+   --Traverse the tree from any node to find the Head node, return the Head node
+   procedure GetRoot(P: in out BinarySearchTreePoint);
                             
 private
    type Customer is 
