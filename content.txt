@@ -100,6 +100,7 @@ Starting post order traversal iterative from: [Moutafis, 295-1492]
 [Moutafis, 295-1492]
 
 B Option
+Return Head zzzzzzzzzz
 Found customer [Robson, 293-6122] iteratively.
 
 Enter delete: Robson    
@@ -107,6 +108,7 @@ Deletion Node Q: Robson     Q Parent:Moutafis
 Enter delete: Villatoro 
 Deletion Node Q: Villatoro  Q Parent:Robson    
 Deleting leaf Villatoro 
+Deleting right leaf Villatoro 
 Changing Robson     Rtag to false
 Changing Robson     RtRlink to zzzzzzzzzz
 Numnodes changed -1 to:  10
@@ -132,6 +134,7 @@ Deletion Node Q: Ortiz      Q Parent:Villatoro
 Enter delete: Quijada   
 Deletion Node Q: Quijada    Q Parent:Ortiz     
 Deleting leaf Quijada   
+Deleting right leaf Quijada   
 Changing Ortiz      Rtag to false
 Changing Ortiz      RtRlink to Villatoro 
 Numnodes changed -1 to:  9
@@ -150,7 +153,6 @@ Starting inorder traversal from: [Ortiz, 584-3622]
 [Ikerd, 291-1864]
 Found customer [Ikerd, 291-1864] iteratively.
 
-Return Root zzzzzzzzzz
 
 Inserting 2 customers from file: inputB1.txt
 
@@ -173,6 +175,7 @@ Starting inorder traversal from: [Ortiz, 584-3622]
 [Gladwin, 295-1601]
 [Harris, 294-8075]
 [Ikerd, 291-1864]
+
 [Villatoro, 295-6622]
 [Spell, 295-1882]
 [Quijada, 294-1882]
@@ -197,4 +200,4 @@ Starting pre order traversal iterative
 [Quijada, 294-1882]
 [Poudel, 294-1666]
 [Spell, 295-1882]
-[2019-11-23 22:25:39] process terminated successfully, elapsed time: 00.22s
+[2019-11-24 11:34:51] process terminated successfully, elapsed time: 00.24s

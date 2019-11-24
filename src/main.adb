@@ -3,7 +3,7 @@ use BinarySearchTree;
 with Ada.Text_IO;
 use ada.Text_IO;
 procedure Main is
-   Root : BinarySearchTreePoint;
+   Root: BinarySearchTreePoint;
    FoundCustomer: BinarySearchTreePoint;
 begin
    --C OPTION TRANSACTIONS
@@ -22,6 +22,7 @@ begin
    --B OPTION TRANSACTIONS
    New_Line;
    Put_Line("B Option");
+   GetHead(Root);
    FindCustomerIterative(Root, ToString10("Robson"), FoundCustomer); --7.1
    DeleteRandomNode(FoundCustomer, Root); --7.2
    InOrderTraversal(Root);
@@ -29,11 +30,11 @@ begin
    DeleteRandomNode(FoundCustomer, Root); --7.4
    InOrderTraversal(Root);
    FindCustomerIterative(Root, ToString10("Ikerd"), FoundCustomer); --7.5
-   --DeleteRandomNode(FoundCustomer, Root); --7.6
-   GetRoot(Root);
+   DeleteRandomNode(FoundCustomer, Root); --7.6
    TreeFromFile("inputB1.txt", Root); --8
    InOrderTraversal(Root); --9
-   ReverseInOrder(Root); --10
+   New_Line;
+   ReverseInOrderCaller(Root); --10
    PreOrderTraversalIterative(Root); --11
 
 

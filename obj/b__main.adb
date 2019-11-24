@@ -21,7 +21,6 @@ package body ada_main is
    E047 : Short_Integer; pragma Import (Ada, E047, "system__dwarf_lines_E");
    E021 : Short_Integer; pragma Import (Ada, E021, "system__soft_links__initialize_E");
    E039 : Short_Integer; pragma Import (Ada, E039, "system__traceback__symbolic_E");
-   E146 : Short_Integer; pragma Import (Ada, E146, "ada__numerics_E");
    E101 : Short_Integer; pragma Import (Ada, E101, "ada__tags_E");
    E099 : Short_Integer; pragma Import (Ada, E099, "ada__streams_E");
    E113 : Short_Integer; pragma Import (Ada, E113, "system__file_control_block_E");
@@ -29,8 +28,7 @@ package body ada_main is
    E110 : Short_Integer; pragma Import (Ada, E110, "ada__finalization_E");
    E109 : Short_Integer; pragma Import (Ada, E109, "system__file_io_E");
    E006 : Short_Integer; pragma Import (Ada, E006, "ada__text_io_E");
-   E161 : Short_Integer; pragma Import (Ada, E161, "gqueue_E");
-   E163 : Short_Integer; pragma Import (Ada, E163, "gstack_E");
+   E151 : Short_Integer; pragma Import (Ada, E151, "gstack_E");
    E115 : Short_Integer; pragma Import (Ada, E115, "binarysearchtree_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
@@ -187,8 +185,6 @@ package body ada_main is
       E013 := E013 + 1;
       System.Traceback.Symbolic'Elab_Body;
       E039 := E039 + 1;
-      Ada.Numerics'Elab_Spec;
-      E146 := E146 + 1;
       Ada.Tags'Elab_Spec;
       Ada.Tags'Elab_Body;
       E101 := E101 + 1;
@@ -205,8 +201,7 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E006 := E006 + 1;
-      E161 := E161 + 1;
-      E163 := E163 + 1;
+      E151 := E151 + 1;
       E115 := E115 + 1;
    end adainit;
 
@@ -243,7 +238,6 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\patri\DSTree\obj\gqueue.o
    --   C:\Users\patri\DSTree\obj\gstack.o
    --   C:\Users\patri\DSTree\obj\binarysearchtree.o
    --   C:\Users\patri\DSTree\obj\main.o
