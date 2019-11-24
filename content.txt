@@ -1,202 +1,146 @@
+C:\Users\patri\DSTree\obj\main.exe
+
+Inserting 8 customers from file: inputC1.txt
+
+Got Moutafis from file
+Creating new tree starting with: [Moutafis, 295-1492]
+Inserting [Moutafis, 295-1492]
+
+Got Ikerd from file
+Inserting [Ikerd, 291-1864]
+
+Got Gladwin from file
+Inserting [Gladwin, 295-1601]
+
+Got Robson from file
+Inserting [Robson, 293-6122]
+
+Got Dang from file
+Inserting [Dang, 295-1882]
+
+Got Bird from file
+Inserting [Bird, 291-7890]
+
+Got Harris from file
+Inserting [Harris, 294-8075]
+
+Got Ortiz from file
+Inserting [Ortiz, 584-3622]
+
+Found customer [Ortiz, 584-3622] iteratively.
+
+Found customer [Ortiz, 584-3622] recursively.
+
+Could not find Penton iteratively.
+
+Could not find Penton recursively.
+
+Found customer [Ikerd, 291-1864] iteratively.
+
+
+Starting inorder traversal from: [Ikerd, 291-1864]
+[Moutafis, 295-1492]
 [Ortiz, 584-3622]
+[Robson, 293-6122]
 [zzzzzzzzzz, 0000000000]
+[Bird, 291-7890]
+[Dang, 295-1882]
+[Gladwin, 295-1601]
+[Harris, 294-8075]
+
+Inserting 3 customers from file: inputC2.txt
+
+Got Avila from file
+Inserting [Avila, 294-1568]
+
+Got Quijada from file
+Inserting [Quijada, 294-1882]
+
+Got Villatoro from file
+Inserting [Villatoro, 295-6622]
+
+
+Starting inorder traversal from: [Moutafis, 295-1492]
+[Ortiz, 584-3622]
+[Quijada, 294-1882]
+[Robson, 293-6122]
+[Villatoro, 295-6622]
+[zzzzzzzzzz, 0000000000]
+[Avila, 294-1568]
+[Bird, 291-7890]
+[Dang, 295-1882]
+[Gladwin, 295-1601]
+[Harris, 294-8075]
+[Ikerd, 291-1864]
+
+Starting pre order traversal iterative
 [Moutafis, 295-1492]
 [Ikerd, 291-1864]
 [Gladwin, 295-1601]
 [Dang, 295-1882]
 [Bird, 291-7890]
+[Avila, 294-1568]
 [Harris, 294-8075]
 [Robson, 293-6122]
 [Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
+[Quijada, 294-1882]
+[Villatoro, 295-6622]
+
+Starting post order traversal iterative from: [Moutafis, 295-1492]
+[Avila, 294-1568]
 [Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
 [Dang, 295-1882]
-[Bird, 291-7890]
 [Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
 [Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
 [Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
+[Quijada, 294-1882]
 [Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
+[Villatoro, 295-6622]
+[Robson, 293-6122]
 [Moutafis, 295-1492]
+
+B Option
+Found customer [Robson, 293-6122] iteratively.
+
+Enter delete: Robson    
+Deletion Node Q: Robson     Q Parent:Moutafis  
+Going 3 delete: Villatoro 
+3 delete: Robson    
+Enter delete: Villatoro 
+Deletion Node Q: Villatoro  Q Parent:Robson    
+Deleting leaf Villatoro 
+Changing Robson     Rtag to false
+Changing Robson     RtRlink to zzzzzzzzzz
+Numnodes changed -1 to:  10
+Swappingo Villatoro  out with Villatoro 
+
+Starting inorder traversal from: [Moutafis, 295-1492]
+[Ortiz, 584-3622]
+[Quijada, 294-1882]
+[Villatoro, 295-6622]
+[zzzzzzzzzz, 0000000000]
+[Avila, 294-1568]
+[Bird, 291-7890]
+[Dang, 295-1882]
+[Gladwin, 295-1601]
+[Harris, 294-8075]
 [Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
+Found customer [Moutafis, 295-1492] iteratively.
+
+Enter delete: Moutafis  
+Deletion Node Q: Moutafis   Q Parent:zzzzzzzzzz
+Deleting Root
+Right delete
+Calling Delete Villatoro 
+Enter delete: Villatoro 
+Deletion Node Q: Villatoro  Q Parent:Moutafis  
+Going 3 delete: zzzzzzzzzz
+3 delete: Villatoro 
+INHERE
+Numnodes changed -1 to:  9
+
+Starting inorder traversal from: [Villatoro, 295-6622]
+[Ortiz, 584-3622]
+[Quijada, 294-1882]
 [Ortiz, 584-3622]
 [zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ikerd, 291-1864]
-[Gladwin, 295-1601]
-[Dang, 295-1882]
-[Bird, 291-7890]
-[Harris, 294-8075]
-[Robson, 293-6122]
-[Ortiz, 584-3622]
-[zzzzzzzzzz, 0000000000]
-[Moutafis, 295-1492]
-[Ik

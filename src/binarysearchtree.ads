@@ -70,7 +70,7 @@ package BinarySearchTree is
    
    --Returns the parent node of P, used in DeleteRandomNode
    function FindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint;
-   
+   function DeletionFindParent(P, Head: in BinarySearchTreePoint) return BinarySearchTreePoint;
    --Must be recursive.
    procedure ReverseInOrder(treePoint: in BinarySearchTreePoint); 
 

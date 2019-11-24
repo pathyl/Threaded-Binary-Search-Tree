@@ -449,7 +449,8 @@ package body BinarySearchTree is
          elsif S.Info.Name = HeadName then
             Put_Line("INHERE");
             Q.Info := Q.Llink.Info;
-            QParent.Llink := QParent.Llink.Rlink;
+            Q.Rlink := Q.Llink.Rlink;
+            
             numNodes := numNodes - 1;
             Put_Line("Numnodes changed -1 to: " & numNodes'Image);
 
