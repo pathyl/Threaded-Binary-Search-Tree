@@ -1,140 +1,19 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file />
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 5" >
+  <Project >
+    <file_marker column=" 14" line=" 1" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 91" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 96" line=" 21" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 239" >
+    <file_marker column=" 19" line=" 115" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 17" >
+    <file_marker column=" 14" line=" 1" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 239" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 5" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 291" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 29" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 291" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 239" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 291" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 239" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 31" line=" 44" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 37" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 114" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 40" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 115" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2" >
-      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 24" >
+    <file_marker column=" 32" line=" 37" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
@@ -146,31 +25,31 @@
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\gstack.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 22" line=" 197" >
+    <file_marker column=" 22" line=" 171" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 5" >
+    <file_marker column=" 4" line=" 4" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 188" >
+    <file_marker column=" 4" line=" 162" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 3" line=" 170" >
+    <file_marker column=" 3" line=" 144" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 196" >
+    <file_marker column=" 1" line=" 170" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 3" line=" 170" >
+    <file_marker column=" 3" line=" 144" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 110" line=" 123" >
+    <file_marker column=" 50" line=" 122" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
@@ -182,39 +61,39 @@
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\gqueue.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 149" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 3" line=" 170" >
+    <file_marker column=" 3" line=" 144" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 47" line=" 127" >
+    <file_marker column=" 39" line=" 126" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 3" line=" 170" >
+    <file_marker column=" 3" line=" 144" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 36" line=" 237" >
+    <file_marker column=" 21" line=" 210" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 167" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 96" line=" 21" >
+    <file_marker column=" 79" line=" 34" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 42" line=" 223" >
+    <file_marker column=" 42" line=" 196" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 167" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
@@ -222,11 +101,11 @@
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\gqueue.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 239" >
+    <file_marker column=" 1" line=" 212" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 54" line=" 8" >
+    <file_marker column=" 6" line=" 93" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
     </file_marker>
@@ -234,35 +113,35 @@
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 126" >
+    <file_marker column=" 10" line=" 125" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 32" line=" 133" >
+    <file_marker column=" 17" line=" 131" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 32" line=" 130" >
+    <file_marker column=" 50" line=" 129" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 149" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 18" >
+    <file_marker column=" 1" line=" 31" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 25" >
+    <file_marker column=" 37" line=" 37" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 86" line=" 14" >
+    <file_marker column=" 48" line=" 29" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 86" line=" 14" >
+    <file_marker column=" 48" line=" 29" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
@@ -270,79 +149,79 @@
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 86" line=" 14" >
+    <file_marker column=" 48" line=" 29" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 149" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 40" line=" 8" >
+    <file_marker column=" 17" line=" 5" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 13" line=" 138" >
+    <file_marker column=" 13" line=" 136" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 149" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 151" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 28" line=" 12" >
+    <file_marker column=" 28" line=" 25" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 151" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 27" line=" 202" >
+    <file_marker column=" 27" line=" 175" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 151" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 39" line=" 158" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 151" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 22" line=" 291" >
+    <file_marker column=" 22" line=" 323" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 151" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 28" line=" 12" >
+    <file_marker column=" 28" line=" 25" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 8" line=" 4" >
+    <file_marker column=" 1" line=" 2" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 7" >
+    <file_marker column=" 63" line=" 16" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 21" line=" 8" >
+    <file_marker column=" 6" line=" 93" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 28" line=" 12" >
+    <file_marker column=" 28" line=" 25" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
@@ -350,11 +229,11 @@
       <vfs_project />
       <vfs_file>C:\GNAT\2019\lib\gcc\x86_64-pc-mingw32\8.3.1\adainclude\a-tifiio.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 28" line=" 12" >
+    <file_marker column=" 28" line=" 25" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 151" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
@@ -362,27 +241,27 @@
       <vfs_project />
       <vfs_file>C:\GNAT\2019\lib\gcc\x86_64-pc-mingw32\8.3.1\adainclude\a-textio.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 29" line=" 7" >
+    <file_marker column=" 17" line=" 5" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 17" >
+    <file_marker column=" 1" line=" 30" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 14" >
+    <file_marker column=" 1" line=" 29" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 32" line=" 158" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 21" line=" 159" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 32" line=" 158" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
@@ -394,15 +273,15 @@
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\gstack.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 167" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 70" line=" 158" >
+    <file_marker column=" 1" line=" 139" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 27" line=" 271" >
+    <file_marker column=" 26" line=" 244" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
@@ -430,464 +309,497 @@
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\gqueue.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 54" line=" 36" >
+    <file_marker column=" 32" line=" 32" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 285" >
+    <file_marker column=" 20" line=" 258" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 18" line=" 276" >
+    <file_marker column=" 18" line=" 249" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 167" >
+    <file_marker column=" 16" line=" 359" >
       <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
       <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
-  </Project>
-  <Project >
-    <vfs_file >C:\Users\patri\DSTree\default.gpr</vfs_file>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 5">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 91">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 96" line=" 21">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 248">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 17">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 248">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 5">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 301">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 29">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 301">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 248">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 301">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 248">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 31" line=" 44">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 37">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 114">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 40">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 115">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 2">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 24">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 2" line=" 1">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gstack.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 206">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 5">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 197">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 3" line=" 179">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 205">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 3" line=" 179">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 110" line=" 123">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 3">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 14">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 149">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 3" line=" 179">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 47" line=" 127">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 3" line=" 179">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 246">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 31" line=" 174">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 96" line=" 21">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 42" line=" 232">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 31" line=" 174">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 14">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 248">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 54" line=" 8">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 126">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 133">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 130">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 149">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 18">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 25">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 86" line=" 14">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 86" line=" 14">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 4">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 86" line=" 14">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 149">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 8">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 138">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 149">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 151">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 28" line=" 12">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 151">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 211">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 151">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 39" line=" 158">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 151">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 301">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 151">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 28" line=" 12">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 8" line=" 4">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 7">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 8">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 28" line=" 12">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 24">
-      <vfs_project  />
-      <vfs_file >C:\GNAT\2019\lib\gcc\x86_64-pc-mingw32\8.3.1\adainclude\a-tifiio.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 28" line=" 12">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 151">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 465">
-      <vfs_project  />
-      <vfs_file >C:\GNAT\2019\lib\gcc\x86_64-pc-mingw32\8.3.1\adainclude\a-textio.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 7">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 17">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 14">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 158">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 159">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 158">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 14">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 8">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gstack.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 28" line=" 168">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 70" line=" 158">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 280">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 1">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 14">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 6">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 10">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 12">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 10">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\gqueue.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 54" line=" 36">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 294">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 18" line=" 285">
-      <vfs_project >C:\Users\patri\DSTree\default.gpr</vfs_project>
-      <vfs_file >C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    <file_marker column=" 4" line=" 132" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 278" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 277" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 279" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 46" line=" 277" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 282" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 288" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 288" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 22" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 11" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 9" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 389" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 80" line=" 140" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 9" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 15" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 97" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 97" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 97" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 82" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 78" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 81" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 80" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 97" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 25" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 97" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 1" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 16" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 56" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 45" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 43" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 5" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 60" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 68" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 75" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 157" line=" 88" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 72" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 82" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 157" line=" 88" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 495" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 157" line=" 88" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 345" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 70" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 116" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 1" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 98" line=" 53" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 73" line=" 3" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 177" line=" 88" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 64" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 159" line=" 88" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 91" line=" 21" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 45" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 50" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 382" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 91" line=" 12" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 382" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 7" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 25" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 355" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 329" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 393" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 394" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 447" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 451" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 460" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 462" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 464" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 21" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 28" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 35" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 41" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 43" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 187" line=" 88" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 85" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 179" line=" 88" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 114" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 134" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 114" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 134" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 384" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 416" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 396" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 88" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 89" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 90" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 100" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 133" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 85" line=" 84" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 67" line=" 70" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 1" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 94" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 268" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 246" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 453" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 465" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 461" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 494" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 494" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 494" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 494" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 494" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 357" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 412" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 50" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 83" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 35" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 96" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 77" line=" 64" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 52" line=" 102" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 64" line=" 318" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 17" line=" 414" >
+      <vfs_project>C:\Users\patri\DSTree\default.gpr</vfs_project>
+      <vfs_file>C:\Users\patri\DSTree\src\binarysearchtree.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
