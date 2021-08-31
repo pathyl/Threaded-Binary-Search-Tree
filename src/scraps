@@ -32,3 +32,281 @@
          end if;
       end loop;
       New_Line;
+
+
+
+
+Parent := FindParent(Q, Head);
+      if Q.Ltag then
+         --Replace node Q with left child
+         if Q.Rtag then -- thread right child to new parent.
+            Rchild := Q.Rlink;
+            Lchild := Q.Llink;
+            if Lchild.Rtag = false then --Lchild has no Right child of its own.
+               Lchild.Rtag := true;
+               Lchild.Rlink := Rchild;
+            else --Lchild has a Right child of its own
+               J := Lchild.Rlink;
+               while J.Rtag loop
+                  J := J.Rlink;
+               end loop;
+               J.Rtag := true;
+               J.Rlink := Rchild;
+            end if;
+
+         end if;
+         if Parent.Llink = Q then -- Parent of Q points to Lchild instead of Q
+            Parent.Llink := Lchild;
+         else
+            Parent.Rlink := Lchild;
+         end if;
+         --Free(Q);
+      elsif Q.Rtag then
+         --Replace node Q with right child
+         Rchild := Q.Rlink;
+         if Q.Ltag then -- thread left child to new parent.
+            Lchild := Q.Llink;
+            Rchild := Q.Rlink;
+            Rchild.Ltag := true;
+            Rchild.Llink := Lchild;
+         end if;
+         if Parent.Llink = Q then -- Parent of Q points to Rchild instead of Q
+            Parent.Llink := Rchild;
+         else
+            Parent.Rlink := Rchild;
+         end if;
+         -- Free(Q);
+      else --DeletionPoint is a leaf node.
+         if Parent.Llink = Q then
+            Parent.Ltag := false;
+            Parent.Llink := InOrderPredecessor(Parent);
+         else
+            Parent.Rtag := false;
+            Parent.Rlink := InOrderSuccessor(Parent);
+         end if;
+         --Free(Q);
+         null;
+      end if;
+
+
+
+
+  Parent := FindParent(Q, Head);
+      T := Q;
+      if T.Rtag = false then
+         Q := T.Llink;
+         --Free(T);
+      else
+         if T.Ltag = false then
+            Q := T.Rlink;
+            --Free(T);
+         end if;
+
+         R := T.Rlink;
+         if R.Ltag = false then
+            R.Llink := T.Llink;
+            Q:= R;
+            --Free(T);
+         else
+            S := R.Llink;
+            while S.Ltag loop
+               R := S;
+               S := R.Llink;
+            end loop;
+            S.Llink := T.Llink;
+            R.Llink := S.Rlink;
+            S.Rlink := T.Rlink;
+            Q := S;
+            --Free(T);
+         end if;
+      end if;
+      if Head.Llink = T then
+         Head.Llink := Q;
+      else
+         if T = Parent.Llink then
+            P.Llink := Q;
+         else
+            P.Rlink := Q;
+         end if;
+      end if;
+
+
+
+
+ if Q.Rtag = false and Q.Ltag = false then
+         --Deleting a leaf;
+         if QParent.Llink = Q then
+            --Q is left from its parent
+            QParent.Ltag := false;
+            QParent.Llink := Q.Llink;
+         else
+            --Q is right from its parent
+            QParent.Rtag := false;
+            QParent.Rlink := Q.Rlink;
+         end if;
+      end if;
+
+      if Q.Rtag and not Q.Ltag then
+         --Q only has a right child
+
+         if QParent.Llink = Q then
+            --Q is left of its parent
+            QParent.Llink := Q.Rlink;
+         else
+            --Q is right of its parent
+            QParent.Rlink := Q.Rlink;
+         end if;
+
+      elsif Q.Ltag and not Q.Rtag then
+         --Q only has a left child
+         Q.Llink.Rtag := false;
+         Q.Llink.Rlink := Q.Rlink;
+         if QParent.Llink = Q then
+            --Q is left of its parent
+            QParent.Llink := Q.Llink;
+         else
+            --Q is right of its parent
+            QParent.Rlink := Q.Llink;
+         end if;
+      end if;
+
+      --Q has 2 children and isn't a leaf
+      declare
+         SParent: BinarySearchTreePoint := FindParent(S, Head);
+         T, J: BinarySearchTreePoint;
+      begin
+         if S.Rtag then
+            --replacement has right subtree
+            T := S;
+            S.Llink := Q.Llink;
+            S.Rlink := Q.Rlink;
+
+            SParent.Llink := T.Rlink;
+            J := T.Rlink;
+            while J.Ltag loop
+               J := J.Llink;
+            end loop;-- J is node that needs to be threaded.
+            J.Llink := T.Llink;
+         else
+            --replacement does not have children
+            SParent.Llink := S.Llink;
+            SParent.Ltag := false;
+         end if;
+      end;
+
+ if Q.Rtag = false and Q.Ltag = false then
+         --Deleting a leaf;
+         if QParent.Llink = Q then
+            --Q is left from its parent
+            QParent.Ltag := false;
+            QParent.Llink := Q.Llink;
+         else
+            --Q is right from its parent
+            QParent.Rtag := false;
+            QParent.Rlink := Q.Rlink;
+         end if;
+      end if;
+
+      if Q.Rtag and not Q.Ltag then
+         --Q only has a right child
+
+         if QParent.Llink = Q then
+            --Q is left of its parent
+            QParent.Llink := Q.Rlink;
+         else
+            --Q is right of its parent
+            QParent.Rlink := Q.Rlink;
+         end if;
+
+      elsif Q.Ltag and not Q.Rtag then
+         --Q only has a left child
+         Q.Llink.Rtag := false;
+         Q.Llink.Rlink := Q.Rlink;
+         if QParent.Llink = Q then
+            --Q is left of its parent
+            QParent.Llink := Q.Llink;
+         else
+            --Q is right of its parent
+            QParent.Rlink := Q.Llink;
+         end if;
+      end if;
+
+      --Q has 2 children and isn't a leaf
+      declare
+         SParent: BinarySearchTreePoint := FindParent(S, Head);
+         T, J: BinarySearchTreePoint;
+      begin
+         if S.Rtag then
+            --replacement has right subtree
+            T := S;
+            S.Llink := Q.Llink;
+            S.Rlink := Q.Rlink;
+
+            SParent.Llink := T.Rlink;
+            J := T.Rlink;
+            while J.Ltag loop
+               J := J.Llink;
+            end loop;-- J is node that needs to be threaded.
+            J.Llink := T.Llink;
+         else
+            --replacement does not have children
+            SParent.Llink := S.Llink;
+            SParent.Ltag := false;
+         end if;
+      end;
+
+
+         --Deleting Root
+         Put_Line("Deleting Root");
+         if Q.Rtag then
+            QParent.Llink := Q.Rlink;
+            Put_Line("Changing " & QParent.Info.Name & " LLink to " & Q.Rlink.Info.Name);
+            Q.Rlink.LLink := Q.Llink;
+            Q.Rlink.Ltag := Q.Ltag;
+            --Put_Line("Changing " & Q.Rlink.Info.Name & " Rlink to " & Q.Rlink.Rlink.Info.Name);
+            Put_Line("EnteringDeleteroot righttag sending " & Q.Rlink.Info.Name);
+            DeleteRandomNode(Q.Rlink, Head);
+            Q.Info := Q.Rlink.Info;
+            Put_Line("Swapping " & Q.Info.Name & " out with " & Q.Rlink.Info.Name);
+         else
+            QParent.Llink := Q.Llink;
+            Put_Line("Changing " & QParent.Info.Name & " LLink to " & Q.Llink.Info.Name);
+            Q.Llink := Q.Llink.Rlink;
+            Put_Line("EnteringDeleteroot else sending " & Q.Llink.Info.Name);
+            DeleteRandomNode(Q.Llink, Head);
+            Q.Info := Q.Llink.Info;
+            Put_Line("Swapping " & Q.Info.Name & " out with " & Q.Llink.Info.Name);
+         end if;
+      else
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      if QParent = Head then
+         root := null;
+      elsif QParent.Llink = Q then
+         QParent.Ltag := true;
+         QParent.llink := Q.Llink;
+      else
+         QParent.Rtag := true;
+         QParent.Rlink := Q.Rlink;
+      end if;
